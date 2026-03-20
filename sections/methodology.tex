@@ -1,0 +1,101 @@
+\chapter{Methodology}
+\begin{center}
+	\includegraphics[width=\linewidth]{ResearchPipeline}
+	Figure 1: Diagram representing the whole research pipeline
+\end{center}
+Following the objectives set by the research team, the research process will follow the flow from Figure 1. 
+
+\section{Data Sources}
+The study uses data from datasets compiled by Calalang et al. (2025), consisting of two distinct datasets from the social network platform X/Twitter. The first dataset comprises 10,214,176 tweets downloaded by S. Co et al. (2022), spanning the period of March 2020 to December 2020. The second dataset, aggregated by E. Co et al. (2023), comprises 6,966,696 tweets downloaded from December 2021 to October 2022. The combined dataset comprises 17,180,872 tweets. In both datasets combined there are 5,362,125 tweets containing emojis Calalang et al. (2025). The two datasets were downloaded using the Python Twitter library and were queried within a geographical bounding box around the Philippines, making region-focused analysis easier.
+
+\section{Data Cleaning}
+This research leverages the use of emojis in expressing sentiment in textual information and emphasizing the preservation of culturally distinct meanings. A systematic preprocessing and cleaning of the data pipeline will ensure the dataset is in the most suitable form for sentiment analysis. The first-pass filtering will keep only tweets with at least one emoji since they directly affect the research goal of the study. Tweets with one emoji repeated multiple times will also be saved since repetition could have the effect of being used as an intensifier and has special implications for sentiment. Further cleaning such as the removal of duplicate tweets and the replacement of links and user handles to “\_\_LINK\_\_” and “\_\_USER\_\_” will also be implemented to protect both twitter users by preserving anonymity and the annotators, but the structural position of those components in the text is not lost. Additionally, tweets only containing links, user handles or emojis without any other accompanying text will be filtered out of the dataset alongside tweets containing purely characters from foreign languages. This cleaned version of the dataset is what will be given to the human annotators to label based on the sentiment given by the text. The dataset will be cleaned further to reduce noise and ensure consistency for the next steps of our methodology. Strings with more than 3 repeating characters will be shortened and non text and emoji characters will be removed from the dataset. All letters will be converted into lowercase. All irrelevant columns such as Twitter IDs, geospatial information, and timestamps will also be removed.	
+
+\section{Data annotation}
+
+To effectively capture the Filipino context for this study, manual annotation through a crowdsourcing approach will be employed to label the dataset. The requirement for participants serving as annotators is to be a citizen of the Philippines, be currently physically present in the Philippines, be 18 years old or older , and be able to speak Filipino/English fluently. To ensure compliance, users will be asked to confirm if they meet the requirements of the study for verification purposes.
+
+The annotation and verification processes were facilitated through a web application which was developed and deployed. The web application begins with a sign up process that asks annotators for basic information, such as their age and gender. Additionally, there is a checkbox for annotators to indicate their consent for their data and annotations to be used in the study. 
+
+After signing up, annotators will receive instructions to select the rating that best represents the tone or sentiment of randomly selected tweet presented to them. The options will be displayed as seven buttons labeled (from left to right): Very Negative, Negative, Somewhat Negative, Neutral, Somewhat Positive, Positive, and Very Positive, all of which are located beneath the current tweet. Once an annotator selects one of the options, the next tweet for annotation will appear on their screen. At this point, the sentiment label counts and the occurrence count for each unique emoji in the tweet will be updated. 
+
+To encourage participation, annotators will receive cash and gift card incentives for labeling a specified number of tweets. 
+
+Each tweet will be evaluated by three annotators, who will assign one of seven labels: very negative, negative, somewhat negative, neutral, somewhat positive, positive, and very positive. Once a tweet has been annotated the frequency of said tweet being presented to annotators will decrease. This method aligns with the approach used in the study by Novak et al. (2015), ensuring a higher level of reliability through multiple annotations.
+
+\section{Lexicon construction}
+
+The construction of the emoji sentiment lexicon will be based on a labeled dataset containing, for each emoji, the frequency of occurrence and the distribution of sentiment labels (positive, negative, and neutral). Each emoji will be assigned a sentiment score following the formula proposed by Alfreihat et al. (2024) using the data found in the labeled dataset.
+
+Alongside sentiment scores, the lexicon will record the absolute frequency of each emoji and the percentage distribution of its sentiment labels. This structure follows the Emoji Sentiment Ranking (ESR) approach by Novak et al. (2015).
+
+A key methodological choice in this study is to preserve all emoji variants without standardization. Skin tone modifiers (e.g., \emoji{thumbs-up-light-skin-tone} vs. \emoji{thumbs-up-dark-skin-tone}) and other Unicode differences will be treated as distinct entries. This decision acknowledges that these variants may convey nuanced or culturally specific sentiment differences, particularly in the Philippine context.
+
+\section{Data analysis}
+
+With the labeled dataset and the completed emoji lexicon, this study will explore and describe the characteristics of the labeled dataset and the lexicon, as well as compare the lexicon with other existing emoji sentiment lexicons. This will be achieved through a descriptive, comparative, and predictive analysis.
+
+\subsection{Descriptive Analysis}
+
+In order to further understand the Filipino emoji sentiment lexicon, the study will thoroughly examine emoji frequency and sentiment distribution in the dataset. Frequency examination will identify the most frequently used emojis by Filipino individuals. On the other hand, the sentiment distribution examination will examine how the emojis are interpreted in terms of emotional polarity (e.g., positive, negative, neutral). Collectively, the two analyses are meant to reveal the pattern of emoji use reflecting cultural subtlety and characteristic communication styles in the Filipino culture.
+
+An Exploratory Data Analysis (EDA) will be performed on the labeled dataset to identify trends in how Filipinos use emojis. In this stage, our EDA will incorporate clustering techniques to group emojis that exhibit similar sentiment tendencies or occur in comparable contexts. Moreover, topic modeling will be employed to identify thematic patterns and to show contexts in which specific emojis are frequently used. These approaches will also facilitate examining co-occurrence relationships, such as emojis that tend to appear together in specific conversational settings or thematic groupings that naturally emerge from the data. Employing frequency analysis, sentiment distribution analysis, clustering, and topic modeling will permit descriptive and inferential insights regarding the dataset. This composite methodological approach characterizes the dataset and offers insight into significant cultural and linguistic aspects of emoji use in the Filipino online communication environment.
+
+\subsection{Comparative Analysis}
+
+This study will conduct a thorough comparison of the new sentiment lexicon of emoji with two established benchmarks: the Emoji Sentiment Ranking (ESR) lexicon by Novak et al. (2015) and the Multidimensional Lexicon of Emojis by Godard \& Holtzman (2022). The comparison will allow us to identify statistical similarity and practical agreement of sentiment values across lexicons and uncover significant differences, where applicable, elicited by culture and contextual influences.
+
+\subsubsection{Statistical Similarity and Agreement Analysis}
+
+To quantify how closely this study’s sentiment scores align with those of the reference lexicons, we will compute the coefficient of determination (R²). This metric will indicate the proportion of variance in this study’s lexicon's sentiment scores that can be explained by the reference lexicons, offering a measure of overall predictive consistency.
+
+Beyond variance-based measures, the researchers will apply the Spearman rank-order correlation to assess the degree of monotonic relationship between our sentiment scores and those from the other lexicons. Spearman's correlation is particularly well-suited for ordinal and non-parametric data, enabling the determination of whether emojis are ranked in a similar order of sentiment intensity across lexicons, regardless of the exact score magnitudes.
+
+Besides, the Pearson correlation measure will be employed to assess the linear correspondence of sentiment score ranks for the top-ranked positive, negative, and neutral emojis in each lexicon. Pearson's correlation will reveal if the size of sentiment scores—more than their rank order—is retained across datasets for the most extreme sentiment-carrying emojis.
+
+\subsubsection{Comparative Sentiment Ranking and Emoji Overlap}
+
+Following the statistical analysis, the researchers will directly compare the top sentiment-bearing emojis in each category (positive, negative,  neutral, and etc.) across the lexicons. 
+This will involve identifying:
+
+\begin{enumerate}
+	\item Emojis dominated the top of charts in each of the lexicons.
+	\item Emojis with sentiment classification are substantially different across lexicons.
+	\item The size of difference in sentiment scores for commonly used emojis.
+\end{enumerate}
+
+The researchers will also investigate emoji frequency patterns—how often each top-ranked emoji occurs in the dataset—since such usage counts can impact perceived sentiment and effective model performance.
+
+\subsection{Interpretation and Cultural Context Analysis}
+
+Where there are differences, the researchers will investigate potential reasons, including cultural differences in the interpretation of emojis, temporal shifts in emojis, or variation in annotation techniques across lexicons. In the interpretive process, how much apparent differences result from statistical randomness, methodological biases, or fundamental cultural sentiment divergence—of particular concern with the Philippines-centric focus of this study’s lexicon, will all be determined.
+
+\subsection{Predictive analysis}
+The lexicon will be evaluated through sentiment analysis tasks via machine learning leveraging The lexicon itself, TF-IDF word embeddings and Logistic regression to conduct sentiment analysis on different texts containing emojis. The machine learning models that will be used for this analysis are Logistic regression, Support vector machines, Naive Bayes and Random forest. The labeled dataset will be used to both train and test the sentiment model and cross validation will be used to ensure the consistency of the lexicon.
+
+\begin{itemize}
+	\item Classification procedure
+\end{itemize}
+\begin{enumerate}
+	\item Emoji Detection - Emojis from the tweet are located and placed in a list.
+	\item Lexicon matching - For each emoji in the list, if it exists in the lexicon, a sentiment its sentiment score will be retrieved from the lexicon.
+	\item Feature extraction - From the sentiment scores of each emoji in the tweet, features are created to train the machine learning models features such as the sum of positive and negative scores and the difference between them and the highest negative and positive scores (Kiritchenko et al. (2014)). Besides that, features from TF-IDF embeddings are also used alongside the lexicon features to train the models.
+	\item Label assignment - Using a train test split, the machine learning models are trained with the features from 80\% of the labelled data and will be predicting the sentiment of the remaining 20\% of the labeled data based on their features assigned to them by the lexicon and TF-IDF embeddings.
+\end{enumerate}
+
+
+\begin{itemize}
+	\item Evaluation Metrics
+\end{itemize}
+
+After the classification, the predicted sentiment labels will be compared to the correct annotations in the labeled dataset. To provide a comprehensive performance assessment, the following metrics will be calculated:
+
+\begin{itemize}
+	\item Accuracy - Proportion of correctly classified tweets out of the total.
+	\item Precision - Proportion of correct predictions within all predictions for a given sentiment.
+	\item Recall – Proportion of correctly predicted instances relative to all actual instances for a given sentiment.
+	\item F1 Score – mean of Precision and Recall
+\end{itemize}
+
+These metrics will be computed separately for positive, negative, and neutral classes, enabling overall and class-specific evaluation.
+

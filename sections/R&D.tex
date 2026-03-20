@@ -1,1 +1,51 @@
 \chapter{Results and Discussions}
+
+\section{Experiments/Results}
+\subsection{EDA}
+When the researchers chose to halt the data collection process, Initial analysis of annotated data came in the form of the EDA. The tasks of frequency analysis, sentiment distribution analysis, clustering, and topic modeling were performed on the data to find possible patterns.
+
+The frequency analysis task involved counting the frequency of emoji occurrences to inspect which emojis are the most frequently used. This allows the researchers to distinguish which emojis were most represented and would allow for the researchers to differentiate which emojis have high reliability in its sentiment scores due to the increased number of annotations. The researchers found that emojis such as “\emoji{loudly-crying-face}” and “\emoji{face-with-tears-of-joy}” were found to be among the most numerous.
+
+\begin{center}
+	\includegraphics[width=\linewidth]{30mostcommon.png}
+	Figure 2: Bar chart of the 30 most common emojis (Counted one per tweet)
+\end{center}
+Additionally, counts were done on the ages of participants. The researchers found that most participants were young with most of them being at the age of 20 years old with a non-insignificant number of participants aged 50 years old and above.
+
+Following this, sentiment distribution was analyzed to identify what the sentiment scores might look like, figure 3 displays the distribution of the sentiment ratings by the participants. The bar graph displays a skew to the positive side indicating that more annotations have a positive rating and that sentiment scores will lean to a more positive score.
+
+\begin{center}
+	\includegraphics[width=\linewidth]{ParticipantScoreDist.png}
+	Figure 3: Bar chart of the distribution of sentiment scores given by participants.
+\end{center}
+
+As the annotation process was not completely finished, some of the tweets were lacking 3 ratings from participants. As such, a quick inspection of the number of tweets without 3 annotations was done to assess how much of the data lacks sufficient annotations to be assessed according to the methods of the researchers.
+
+\begin{center}
+	\includegraphics[width=\linewidth]{PieChartAnnot.png}
+	Figure 4: Pie chart of the number of how many annotations lack the 3 for analysis.
+\end{center}
+
+Lastly, a co-occurrence analysis of the emojis was done to observe patterns in the occurrences of emojis. A heatmap was created of the top 8 emojis for visibility.
+
+\begin{center}
+	\includegraphics[width=\linewidth]{CooccurenceHeatmap.png}
+	Figure 5: Heatmap of the co-occurrence among the top 8 occurring emojis.
+\end{center}
+
+\subsection{Lexicon}
+
+The lexicon was constructed using 8880 annotations coming from 74 participants. The top 10\% of participants contributed 40\% of the annotations. Due to that the Mann Whitney U-test was used with 95\% confidence to check for annotator bias.
+From those annotations a significant number of emojis were removed due to a lack of annotations out of the 460 different emojis that were annotated only 273 were kept. The lexicon was sorted based on which emojis had the highest occurrences. The lexicon had similarities with another lexicon, the emoji sentiment ranking with the top emojis in terms of occurrences and their sentiment scores having similarities. 
+
+From those annotations a significant number of emojis were removed due to a lack of annotations out of the 460 different emojis that were annotated only 273 were kept. The lexicon was sorted based on which emojis had the highest occurrences. The lexicon had similarities with another lexicon, the emoji sentiment ranking with the top emojis in terms of occurrences and their sentiment scores having similarities. 
+
+\begin{center}
+	\includegraphics[width=\linewidth]{Top10Emoji.png}
+	Figure 6: The top 10 most frequent Emojis in the emoji sentiment lexicon
+\end{center}
+
+\begin{center}
+	\includegraphics[width=\linewidth]{SentimentScoreBoxplot.png}
+	Figure 7: Boxplots of sentiment scores from the lexicon
+\end{center}
