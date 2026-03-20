@@ -1,7 +1,19 @@
 \chapter{Introduction}
-\section{Context}
-Hello World
-\begin{center}
-	\includegraphics[width=\linewidth]{1_Q6yA_1B_vsdGWAAwB8Z7rA.png}
-	Figure 1: Demonstration of a Convoluted Neural Network (CNN's)
-\end{center}
+Sentiment analysis is a technique to understand people's opinions and sentiments regarding specific texts or topics (Hutto \& Gilbert, 2014). This analysis is a powerful tool for grasping public opinion on various topics to make informed decisions. Applications of sentiment analysis models are diverse and span multiple fields, such  associated tasks may involve market research, patient monitoring, customer review analysis, and competitor analysis (Mao et. al., 2024). As a significant part of text, emojis can significantly enhance the understanding of sentiment due to providing emotional cues often absent in plain text (Liu et. al., 2021). There are two primary approaches to conducting sentiment analysis using prediction models: machine learning-based (Villavicencio et al., 2021) and lexicon-based (Hutto \& Gilbert, 2014). With a sentiment lexicon being a compilation of words and/or symbols, each assigned a sentiment score, which can be expressed in either binary classification or on a scale.
+
+Variations in how emojis are interpreted may impact findings. The interpretation of an emoji may differ according to age, gender, and culture (Chen et al., 2024). Togans et al.'s (2021) cross-cultural study of communication determined that participants who were Asian, such as Chinese and Korean participants, were more frequent and deliberate in their use of emojis compared to Americans due to their indirect way of communication and care for social harmony.
+
+Most existing sentiment analysis tools and lexicons for emojis assume a Western baseline. For example, Novak et al. 's Emoji Sentiment Ranking (ESR) was derived from European languages. It has been shown to give some emojis a positive sentiment score, such as the cigarette emoji (\emoji{cigarette}). This may be the opposite in the Filipino context, where smoking could be negatively perceived (Piamonte, 2024). As a result of this, cultural biases have been directly documented. In an Arabic context, Hakami et. al. in 2021 found that applying the European emoji lexicon produced inaccuracies. One key issue is that the same emoji can carry different emotional connotations across cultural groups. For example (Miller et al, 2016) :
+
+This difference shows that sentiment analysis programs learned in a single cultural context could potentially misunderstand emotional intent in another and thereby lower levels of accuracy when used within cross-cultural environments like the Philippines.
+Seeking to address this gap, the proponents of this study propose the creation of a culturally adapted emoji sentiment lexicon for the Philippine context. To achieve this, the following objectives have been set:
+
+\begin{enumerate}
+	\item To assess existing emoji sentiment lexicons to identify their methods, features, and limitations.
+	\item To curate a dataset of Filipino digital communication containing emojis, primarily from X (formerly twitter).
+	\item To preprocess the data to ensure quality, remove irrelevant elements, and prepare it for annotation.
+	\item To annotate the data through manual evaluations by Filipino participants to reflect local sentiment and emotional interpretations.
+	\item To describe the annotated dataset’s characteristics.
+	\item To compile and structure the annotated data into a usable emoji sentiment lexicon for Filipino NLP tasks.
+	\item To evaluate the impact of the Filipino emoji lexicon on sentiment analysis performance.
+\end{enumerate}
