@@ -2,9 +2,18 @@
 \usepackage[T1]{fontenc}
 \input{preamble.tex} %-- this is where we put our imported packages
 \graphicspath{{figures/}}
+
 \begin{document}
+	
 	\input{sections/abstract}
+	
 	\input{sections/intro}
+	
 	\input{sections/rrl}
+	
 	\input{sections/R&D}
+	
+	\bibliographystyle{apacite}
+	\nocite{*}
+	\bibliography{myreferences.fixed.bib} 
 \end{document}

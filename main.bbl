@@ -1,0 +1,2401 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Top7}}{%
+\APACcitebtitle {Top7}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Top7}
+\APACinsertmetastar {%
+Top7}%
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alahmary%
+\ \BBA {} Al-Dossari%
+}{%
+Alahmary%
+\ \BBA {} Al-Dossari%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Alahmary2023}
+\APACinsertmetastar {%
+Alahmary2023}%
+\begin{APACrefauthors}%
+Alahmary, R.%
+\BCBT {}\ \BBA {} Al-Dossari, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A semiautomatic annotation approach for sentiment
+  analysis} {A semiautomatic annotation approach for sentiment
+  analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Information Science}{49}{2}{398-410}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1177/01655515211006594}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/01655515211006594} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alfreihat%
+\ \protect \BOthers {.}}{%
+Alfreihat%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Alfreihat2024}
+\APACinsertmetastar {%
+Alfreihat2024}%
+\begin{APACrefauthors}%
+Alfreihat, M.%
+, Almousa, O\BPBI S.%
+, Tashtoush, Y.%
+, AlSobeh, A.%
+, Mansour, K.%
+\BCBL {}\ \BBA {} Migdady, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Emo-SL Framework: Emoji Sentiment Lexicon Using
+  Text-Based Features and Machine Learning for Sentiment Analysis} {Emo-sl
+  framework: Emoji sentiment lexicon using text-based features and machine
+  learning for sentiment analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{12}{}{81793-81812}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2024.3382836} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Al-Shabi%
+}{%
+Al-Shabi%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Al-Shabi2020}
+\APACinsertmetastar {%
+Al-Shabi2020}%
+\begin{APACrefauthors}%
+Al-Shabi, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{08}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Evaluating the performance of the most important
+  Lexicons used to Sentiment analysis and opinions Mining} {Evaluating the
+  performance of the most important lexicons used to sentiment analysis and
+  opinions mining}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Arefieva%
+, Egger%
+\BCBL {}\ \BBA {} Yu%
+}{%
+Arefieva%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Arefieva_2021}
+\APACinsertmetastar {%
+Arefieva_2021}%
+\begin{APACrefauthors}%
+Arefieva, V.%
+, Egger, R.%
+\BCBL {}\ \BBA {} Yu, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A machine learning approach to cluster destination image
+  on Instagram} {A machine learning approach to cluster destination image on
+  instagram}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Tourism Management}{85}{}{104318}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/j.tourman.2021.104318}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.tourman.2021.104318} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Asghar%
+\ \protect \BOthers {.}}{%
+Asghar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Asghar2019}
+\APACinsertmetastar {%
+Asghar2019}%
+\begin{APACrefauthors}%
+Asghar, M\BPBI Z.%
+, Sattar, A.%
+, Khan, A.%
+, Ali, A.%
+, Kundi, F\BPBI M.%
+\BCBL {}\ \BBA {} Ahmad, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Creating sentiment lexicon for sentiment analysis in
+  Urdu: The case of a resource-poor language} {Creating sentiment lexicon for
+  sentiment analysis in urdu: The case of a resource-poor language}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Expert Systems}{36}{3}{e12397}.
+\newblock
+\begin{APACrefURL}
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1111/exsy.12397}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{e12397 EXSY-Apr-18-123.R2}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1111/exsy.12397} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Barbieri%
+, Marujo%
+, Karuturi%
+, Brendel%
+\BCBL {}\ \BBA {} Saggion%
+}{%
+Barbieri%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+barbieri2018exploringemojiusageprediction}
+\APACinsertmetastar {%
+barbieri2018exploringemojiusageprediction}%
+\begin{APACrefauthors}%
+Barbieri, F.%
+, Marujo, L.%
+, Karuturi, P.%
+, Brendel, W.%
+\BCBL {}\ \BBA {} Saggion, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+\APACrefbtitle {Exploring Emoji Usage and Prediction Through a Temporal
+  Variation Lens.} {Exploring emoji usage and prediction through a temporal
+  variation lens.}
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/1805.00731} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Behdenna%
+, Barigou%
+\BCBL {}\ \BBA {} Belalem%
+}{%
+Behdenna%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Behdenna_Barigou_Belalem_2016b}
+\APACinsertmetastar {%
+Behdenna_Barigou_Belalem_2016b}%
+\begin{APACrefauthors}%
+Behdenna, S.%
+, Barigou, F.%
+\BCBL {}\ \BBA {} Belalem, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sentiment analysis at document level} {Sentiment
+  analysis at document level}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Communications in computer and information science}
+  {Communications in computer and information science}\ (\BPG~159–168).
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1007/978-981-10-3433-6_20}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-981-10-3433-6_20} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bender%
+, Gebru%
+, McMillan-Major%
+\BCBL {}\ \BBA {} Shmitchell%
+}{%
+Bender%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Bender2021}
+\APACinsertmetastar {%
+Bender2021}%
+\begin{APACrefauthors}%
+Bender, E\BPBI M.%
+, Gebru, T.%
+, McMillan-Major, A.%
+\BCBL {}\ \BBA {} Shmitchell, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On the Dangers of Stochastic Parrots: Can Language
+  Models Be Too Big?} {On the dangers of stochastic parrots: Can language
+  models be too big?}{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 2021 ACM Conference on Fairness,
+  Accountability, and Transparency} {Proceedings of the 2021 acm conference on
+  fairness, accountability, and transparency}\ (\BPG~610–623).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{Association for Computing Machinery}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1145/3442188.3445922}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1145/3442188.3445922} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bilog%
+}{%
+Bilog%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Bilog2020}
+\APACinsertmetastar {%
+Bilog2020}%
+\begin{APACrefauthors}%
+Bilog, R\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Application of naïve Bayes algorithm in sentiment
+  analysis of Filipino, English and Taglish Facebook comments} {Application of
+  naïve bayes algorithm in sentiment analysis of filipino, english and taglish
+  facebook comments}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Management and
+  Humanities}{4}{5}{73–77}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.35940/ijmh.e0524.014520}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.35940/ijmh.e0524.014520} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Boquiren%
+, Garcia%
+, Hungria%
+\BCBL {}\ \BBA {} de Goma%
+}{%
+Boquiren%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Boquiren2022}
+\APACinsertmetastar {%
+Boquiren2022}%
+\begin{APACrefauthors}%
+Boquiren, A\BPBI J\BPBI V.%
+, Garcia, R\BPBI A.%
+, Hungria, C\BPBI J\BPBI D.%
+\BCBL {}\ \BBA {} de Goma, J\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tagalog Sentiment Analysis Using Deep Learning Approach
+  With Backward Slang Inclusion} {Tagalog sentiment analysis using deep
+  learning approach with backward slang inclusion}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the International Conference on
+  Industrial Engineering and Operations Management} {Proceedings of the
+  international conference on industrial engineering and operations
+  management}\ (\BPG~1–11).
+\newblock
+\APACaddressPublisher{}{IEOM Society International}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.46254/af03.20220180}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.46254/af03.20220180} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bravo-Marquez%
+, Frank%
+\BCBL {}\ \BBA {} Pfahringer%
+}{%
+Bravo-Marquez%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Bravo-Marquez2016}
+\APACinsertmetastar {%
+Bravo-Marquez2016}%
+\begin{APACrefauthors}%
+Bravo-Marquez, F.%
+, Frank, E.%
+\BCBL {}\ \BBA {} Pfahringer, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Building a Twitter opinion lexicon from
+  automatically-annotated tweets} {Building a twitter opinion lexicon from
+  automatically-annotated tweets}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Knowledge-Based Systems}{108}{}{65-78}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S095070511630106X}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{New Avenues in Knowledge Bases for Natural Language Processing}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.knosys.2016.05.018}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Calalang%
+\ \protect \BOthers {.}}{%
+Calalang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+calalang2025exploring}
+\APACinsertmetastar {%
+calalang2025exploring}%
+\begin{APACrefauthors}%
+Calalang, M.%
+, Estañol, M.%
+, Jacinto, J.%
+, Lopez, M.%
+, Co, E\BPBI D.%
+, Gan, J\BPBI M.%
+\BDBL {}Tighe, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Exploring Transformer-based Approaches in Sentiment
+  Prediction of Philippine Tweets} {Exploring transformer-based approaches in
+  sentiment prediction of philippine tweets}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the De La Salle University Research
+  Congress 2025.} {Proceedings of the de la salle university research congress
+  2025.}
+\newblock
+\APACaddressPublisher{Manila, Philippines}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Campit%
+}{%
+Campit%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Campit2023}
+\APACinsertmetastar {%
+Campit2023}%
+\begin{APACrefauthors}%
+Campit, J\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Analyzing Customer Satisfaction using Support Vector
+  Machine and Naive Bayes Utilizing Filipino Text} {Analyzing customer
+  satisfaction using support vector machine and naive bayes utilizing filipino
+  text}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{WSEAS TRANSACTIONS ON ENVIRONMENT AND
+  DEVELOPMENT}{19}{}{514–524}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.37394/232015.2023.19.50}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.37394/232015.2023.19.50} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chen%
+, Yang%
+, Howman%
+\BCBL {}\ \BBA {} Filik%
+}{%
+Chen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Chen2024}
+\APACinsertmetastar {%
+Chen2024}%
+\begin{APACrefauthors}%
+Chen, Y.%
+, Yang, X.%
+, Howman, H.%
+\BCBL {}\ \BBA {} Filik, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{{\APACmonth{02}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Individual differences in emoji comprehension: Gender,
+  age, and culture} {Individual differences in emoji comprehension: Gender,
+  age, and culture}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PLoS ONE}{19}{2}{e0297379}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1371/journal.pone.0297379}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1371/journal.pone.0297379} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Chureson%
+}{%
+Chureson%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+Chureson2013}
+\APACinsertmetastar {%
+Chureson2013}%
+\begin{APACrefauthors}%
+Chureson, O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{October}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Impact of English as a Global Language on Filipino
+  Language Practices} {Impact of english as a global language on filipino
+  language practices}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Forum Journal}{16}{2}{22–36}.
+\newblock
+\begin{APACrefURL} \url{https://journals.aiias.edu/info/article/view/131}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Co%
+, Custodio%
+, Cruz%
+\BCBL {}\ \BBA {} Sanchez%
+}{%
+Co%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Co_2022}
+\APACinsertmetastar {%
+Co_2022}%
+\begin{APACrefauthors}%
+Co%
+, Custodio%
+, Cruz, D.%
+\BCBL {}\ \BBA {} Sanchez.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sentiment Classification of Tweets from the Philippines
+  with Emoji-based Data Annotation} {Sentiment classification of tweets from
+  the philippines with emoji-based data annotation}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{De La Salle University}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+E\BPBI D.~Co%
+, Noblefranca%
+\BCBL {}\ \BBA {} Gan%
+}{%
+E\BPBI D.~Co%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+https://doi.org/10.13140/rg.2.2.23937.84325}
+\APACinsertmetastar {%
+https://doi.org/10.13140/rg.2.2.23937.84325}%
+\begin{APACrefauthors}%
+Co, E\BPBI D.%
+, Noblefranca, J\BPBI N.%
+\BCBL {}\ \BBA {} Gan, J\BPBI M\BPBI O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Affect regression of tweets from the Philippines using
+  emoji-based labels} {Affect regression of tweets from the philippines using
+  emoji-based labels}.{\BBCQ}
+\newblock
+\begin{APACrefURL} \url{https://rgdoi.net/10.13140/RG.2.2.23937.84325}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.13140/RG.2.2.23937.84325} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+E\BPBI D.~Co%
+, Noblefranca%
+\BCBL {}\ \BBA {} Gan%
+}{%
+E\BPBI D.~Co%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+Co2023}
+\APACinsertmetastar {%
+Co2023}%
+\begin{APACrefauthors}%
+Co, E\BPBI D.%
+, Noblefranca, J\BPBI N.%
+\BCBL {}\ \BBA {} Gan, J\BPBI M\BPBI O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023{\protect \BCnt {2}}}{{\APACmonth{08}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Affect regression of tweets from the Philippines using
+  emoji-based labels} {Affect regression of tweets from the philippines using
+  emoji-based labels}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ResearchGate}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.13140/RG.2.2.23937.84325}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.13140/RG.2.2.23937.84325} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cruz%
+\ \BBA {} Cheng%
+}{%
+Cruz%
+\ \BBA {} Cheng%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+cruz2021}
+\APACinsertmetastar {%
+cruz2021}%
+\begin{APACrefauthors}%
+Cruz, J\BPBI C\BPBI B.%
+\BCBT {}\ \BBA {} Cheng, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+\APACrefbtitle {Improving Large-scale Language Models and Resources for
+  Filipino.} {Improving large-scale language models and resources for
+  filipino.}
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2111.06053} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+De~Silva%
+}{%
+De~Silva%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+DeSilva_2023}
+\APACinsertmetastar {%
+DeSilva_2023}%
+\begin{APACrefauthors}%
+De~Silva, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{{\APACmonth{04}}}{}.
+\newblock
+\APACrefbtitle {Preprocessing steps for Natural Language Processing (NLP): A
+  beginner’s guide.} {Preprocessing steps for natural language processing
+  (nlp): A beginner’s guide.}
+\newblock
+\begin{APACrefURL}
+  \url{https://medium.com/@maleeshadesilva21/preprocessing-steps-for-natural-language-processing-nlp-a-beginners-guide-d6d9bf7689c9}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dharma%
+, Desak%
+\BCBL {}\ \BBA {} a T~Kariko%
+}{%
+Dharma%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Dharma_Desak_Kariko_2022}
+\APACinsertmetastar {%
+Dharma_Desak_Kariko_2022}%
+\begin{APACrefauthors}%
+Dharma, H\BPBI R\BPBI C.%
+, Desak, N\BPBI G\BPBI F\BPBI P.%
+\BCBL {}\ \BBA {} a T~Kariko, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{12}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Analysis of Emoji’s Usage from Japanese Generation
+  Perspectives} {The analysis of emoji’s usage from japanese generation
+  perspectives}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Indonesian Journal of Tourism and Hospitality
+  Management}{1}{1}{13–20}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.55927/wakatobi.v1i1.2250}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.55927/wakatobi.v1i1.2250} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Dolot%
+\ \BBA {} Opina%
+}{%
+Dolot%
+\ \BBA {} Opina%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+Dolot2021}
+\APACinsertmetastar {%
+Dolot2021}%
+\begin{APACrefauthors}%
+Dolot, D.%
+\BCBT {}\ \BBA {} Opina, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{Jun}{30}.
+\newblock
+{\BBOQ}\APACrefatitle {Forms and functions of graphicons in {F}acebook private
+  conversations among young {F}ilipino users} {Forms and functions of
+  graphicons in {F}acebook private conversations among young {F}ilipino
+  users}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Linguistics, Literature and
+  Translation}{4}{6}{62-73}.
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.32996/ijllt.2021.4.6.8}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Elsalam%
+, Gadallah%
+\BCBL {}\ \BBA {} Hefny%
+}{%
+Elsalam%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Elsalam2022}
+\APACinsertmetastar {%
+Elsalam2022}%
+\begin{APACrefauthors}%
+Elsalam, M\BPBI M\BPBI A.%
+, Gadallah, A\BPBI M.%
+\BCBL {}\ \BBA {} Hefny, H\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{07}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sentiment Analysis of Text Incorporating Emojis: A
+  Machine Learning approach} {Sentiment analysis of text incorporating emojis:
+  A machine learning approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer
+  Applications}{184}{20}{10–18}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.5120/ijca2022922216}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.5120/ijca2022922216} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Eskandar%
+}{%
+Eskandar%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Eskandar_2023}
+\APACinsertmetastar {%
+Eskandar_2023}%
+\begin{APACrefauthors}%
+Eskandar, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{{\APACmonth{04}}}{}.
+\newblock
+\APACrefbtitle {Exploring feature extraction techniques for natural language
+  processing.} {Exploring feature extraction techniques for natural language
+  processing.}
+\newblock
+\begin{APACrefURL}
+  \url{https://medium.com/@eskandar.sahel/exploring-feature-extraction-techniques-for-natural-language-processing-46052ee6514}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Garcia%
+}{%
+Garcia%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Garcia2020}
+\APACinsertmetastar {%
+Garcia2020}%
+\begin{APACrefauthors}%
+Garcia, M\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sentiment Analysis of Tweets on Coronavirus Disease 2019
+  (COVID-19) Pandemic from Metro Manila, Philippines} {Sentiment analysis of
+  tweets on coronavirus disease 2019 (covid-19) pandemic from metro manila,
+  philippines}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cybernetics and Information
+  Technologies}{20}{4}{141–155}.
+\newblock
+\begin{APACrefURL} \url{https://sciendo.com/article/10.2478/cait-2020-0052}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.2478/cait-2020-0052} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Godard%
+\ \BBA {} Holtzman%
+}{%
+Godard%
+\ \BBA {} Holtzman%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Godard2022}
+\APACinsertmetastar {%
+Godard2022}%
+\begin{APACrefauthors}%
+Godard, R.%
+\BCBT {}\ \BBA {} Holtzman, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Multidimensional Lexicon of Emojis: A New Tool to
+  Assess the Emotional Content of Emojis} {The multidimensional lexicon of
+  emojis: A new tool to assess the emotional content of emojis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Frontiers in Psychology}{13}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.3389/fpsyg.2022.921388}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3389/fpsyg.2022.921388} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Goyal%
+\ \BBA {} {De keersmaecker}%
+}{%
+Goyal%
+\ \BBA {} {De keersmaecker}%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+GOYAL2022195}
+\APACinsertmetastar {%
+GOYAL2022195}%
+\begin{APACrefauthors}%
+Goyal, N.%
+\BCBT {}\ \BBA {} {De keersmaecker}, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cultural dyes: Cultural norms color person perception}
+  {Cultural dyes: Cultural norms color person perception}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Opinion in Psychology}{43}{}{195-198}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S2352250X21001081}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.copsyc.2021.07.009}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gunutuku%
+, Li%
+, Tay%
+\BCBL {}\ \BBA {} Ungar%
+}{%
+Gunutuku%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Guntuku2019}
+\APACinsertmetastar {%
+Guntuku2019}%
+\begin{APACrefauthors}%
+Gunutuku, S\BPBI C.%
+, Li, M.%
+, Tay, L.%
+\BCBL {}\ \BBA {} Ungar, L\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Studying Cultural Differences in Emoji Usage across the
+  East and the West} {Studying cultural differences in emoji usage across the
+  east and the west}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Thirtheenth {I}nternational {AAAI} {C}onference on {W}eb
+  and {S}ocial {M}edia} {Thirtheenth {I}nternational {AAAI} {C}onference on
+  {W}eb and {S}ocial {M}edia}\ (\BVOL~13).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Haak%
+}{%
+Haak%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+Haak2021}
+\APACinsertmetastar {%
+Haak2021}%
+\begin{APACrefauthors}%
+Haak, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Emojis in Lexicon-Based Sentiment Analysis: Creating
+  Emoji Sentiment Lexicons from Unlabeled Corpora.} {Emojis in lexicon-based
+  sentiment analysis: Creating emoji sentiment lexicons from unlabeled
+  corpora.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{LWDA}{}{}{279–286}.
+\newblock
+\begin{APACrefURL} \url{http://ceur-ws.org/Vol-2993/paper-26.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hakami%
+, Hendley%
+\BCBL {}\ \BBA {} Smith%
+}{%
+Hakami%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Hakami2021}
+\APACinsertmetastar {%
+Hakami2021}%
+\begin{APACrefauthors}%
+Hakami, S\BPBI A\BPBI A.%
+, Hendley, R\BPBI J.%
+\BCBL {}\ \BBA {} Smith, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{04}}}{}.
+\newblock
+\APACrefbtitle {Arabic Emoji Sentiment Lexicon (Arab-ESL): A Comparison between
+  Arabic and European Emoji Sentiment Lexicons.} {Arabic emoji sentiment
+  lexicon (arab-esl): A comparison between arabic and european emoji sentiment
+  lexicons.}
+\newblock
+\begin{APACrefURL} \url{https://www.aclweb.org/anthology/2021.wanlp-1.7/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hasan%
+, Moin%
+, Karim%
+\BCBL {}\ \BBA {} Shamshirband%
+}{%
+Hasan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+Hasan2018}
+\APACinsertmetastar {%
+Hasan2018}%
+\begin{APACrefauthors}%
+Hasan, A.%
+, Moin, S.%
+, Karim, A.%
+\BCBL {}\ \BBA {} Shamshirband, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine Learning-Based Sentiment Analysis for Twitter
+  Accounts} {Machine learning-based sentiment analysis for twitter
+  accounts}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Mathematical and Computational Applications}{23}{1}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2297-8747/23/1/11}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/mca23010011} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hererra%
+, Aich%
+\BCBL {}\ \BBA {} Parde%
+}{%
+Hererra%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+herrera-etal-2022-tweettaglish}
+\APACinsertmetastar {%
+herrera-etal-2022-tweettaglish}%
+\begin{APACrefauthors}%
+Hererra, M.%
+, Aich, A.%
+\BCBL {}\ \BBA {} Parde, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{T}weet{T}aglish: A Dataset for Investigating
+  {T}agalog-{E}nglish Code-Switching} {{T}weet{T}aglish: A dataset for
+  investigating {T}agalog-{E}nglish code-switching}.{\BBCQ}
+\newblock
+\BIn{} N.~Calzolari\ \BOthers {.}\ (\BEDS), \APACrefbtitle {Proceedings of the
+  Thirteenth Language Resources and Evaluation Conference} {Proceedings of the
+  thirteenth language resources and evaluation conference}\ (\BPGS\
+  2090--2097).
+\newblock
+\APACaddressPublisher{Marseille, France}{European Language Resources
+  Association}.
+\newblock
+\begin{APACrefURL} \url{https://aclanthology.org/2022.lrec-1.225/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hsiao%
+\ \BBA {} Hsieh%
+}{%
+Hsiao%
+\ \BBA {} Hsieh%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Hsiao14}
+\APACinsertmetastar {%
+Hsiao14}%
+\begin{APACrefauthors}%
+Hsiao, K\BHBI A.%
+\BCBT {}\ \BBA {} Hsieh, P\BHBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Age Difference in Recognition of Emoticons} {Age
+  difference in recognition of emoticons}.{\BBCQ}
+\newblock
+\BIn{} S.~Yamamoto\ (\BED), \APACrefbtitle {Human Interface and the Management
+  of Information. Information and Knowledge in Applications and Services}
+  {Human interface and the management of information. information and knowledge
+  in applications and services}\ (\BPG~394-403).
+\newblock
+\APACaddressPublisher{}{Springer, Cham}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle
+  {https://www.dictionary.com/e/gen-z-explains-emoji-to-millennials/}}{%
+\APACcitebtitle
+  {https://www.dictionary.com/e/gen-z-explains-emoji-to-millennials/}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Millennials_2022}
+\APACinsertmetastar {%
+Millennials_2022}%
+\APACrefYearMonthDay{2022}{{\APACmonth{09}}}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.dictionary.com/e/gen-z-explains-emoji-to-millennials/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hutto%
+\ \BBA {} Gilbert%
+}{%
+Hutto%
+\ \BBA {} Gilbert%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+HuttoGilbert2014}
+\APACinsertmetastar {%
+HuttoGilbert2014}%
+\begin{APACrefauthors}%
+Hutto, C.%
+\BCBT {}\ \BBA {} Gilbert, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {VADER: A Parsimonious Rule-based Model for Sentiment
+  Analysis of Social Media Text} {Vader: A parsimonious rule-based model for
+  sentiment analysis of social media text}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the 8th International Conference on
+  Weblogs and Social Media, ICWSM 2014.} {Proceedings of the 8th international
+  conference on weblogs and social media, icwsm 2014.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hwang%
+\ \BBA {} Lee%
+}{%
+Hwang%
+\ \BBA {} Lee%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+hwang2025}
+\APACinsertmetastar {%
+hwang2025}%
+\begin{APACrefauthors}%
+Hwang, H.%
+\BCBT {}\ \BBA {} Lee, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Semi-Supervised Learning based on Auto-generated Lexicon
+  using XAI in Sentiment Analysis} {Semi-supervised learning based on
+  auto-generated lexicon using xai in sentiment analysis}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of [Conference Name].} {Proceedings of
+  [conference name].}
+\newblock
+\APACaddressPublisher{Korea, South}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jang%
+, Kim%
+\BCBL {}\ \BBA {} Kim%
+}{%
+Jang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Jang2019}
+\APACinsertmetastar {%
+Jang2019}%
+\begin{APACrefauthors}%
+Jang, B.%
+, Kim, I.%
+\BCBL {}\ \BBA {} Kim, J\BPBI W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{{\APACmonth{08}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Word2vec convolutional neural networks for
+  classification of news articles and tweets} {Word2vec convolutional neural
+  networks for classification of news articles and tweets}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PLOS ONE}{14}{8}{e0220976}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1371/journal.pone.0220976}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1371/journal.pone.0220976} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Jiang%
+, Fu%
+, Lin%
+\BCBL {}\ \BBA {} Lin%
+}{%
+Jiang%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Jiang2021}
+\APACinsertmetastar {%
+Jiang2021}%
+\begin{APACrefauthors}%
+Jiang, S.%
+, Fu, Y.%
+, Lin, X.%
+\BCBL {}\ \BBA {} Lin, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Pre-trained Language Models for Tagalog with
+  Multi-source Data} {Pre-trained language models for tagalog with multi-source
+  data}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Natural Language Processing and Chinese Computing}
+  {Natural language processing and chinese computing}\ (\BPG~210–223).
+\newblock
+\APACaddressPublisher{}{Springer International Publishing}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1007/978-3-030-88480-2_17}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-3-030-88480-2_17} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Keen%
+, King%
+, Lopez%
+, Mondares%
+\BCBL {}\ \BBA {} Ponay%
+}{%
+Keen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+Keen2015}
+\APACinsertmetastar {%
+Keen2015}%
+\begin{APACrefauthors}%
+Keen, D.%
+, King, N\BPBI M.%
+, Lopez, J.%
+, Mondares, A.%
+\BCBL {}\ \BBA {} Ponay, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{06}{}.
+\newblock
+{\BBOQ}\APACrefatitle {FilCon: Filipino Sentiment Lexicon Generation Using Word
+  Level-Annotated Dictionary-Based and Corpus-Based Cross Lingual Approach}
+  {Filcon: Filipino sentiment lexicon generation using word level-annotated
+  dictionary-based and corpus-based cross lingual approach}.{\BBCQ}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kejriwal%
+, Wang%
+, Li%
+\BCBL {}\ \BBA {} Wang%
+}{%
+Kejriwal%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Kejriwal2021}
+\APACinsertmetastar {%
+Kejriwal2021}%
+\begin{APACrefauthors}%
+Kejriwal, M.%
+, Wang, Q.%
+, Li, H.%
+\BCBL {}\ \BBA {} Wang, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An empirical study of emoji usage on Twitter in
+  linguistic and national contexts} {An empirical study of emoji usage on
+  twitter in linguistic and national contexts}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Online Social Networks and Media}{24}{}{100-149}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/j.osnem.2021.100149}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.osnem.2021.100149} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kendall%
+\ \BBA {} Emily%
+}{%
+Kendall%
+\ \BBA {} Emily%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+Kendall_Emily_2025}
+\APACinsertmetastar {%
+Kendall_Emily_2025}%
+\begin{APACrefauthors}%
+Kendall%
+\BCBT {}\ \BBA {} Emily.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{{\APACmonth{08}}}{}.
+\newblock
+\APACrefbtitle {Emoji | Definition, Examples, History, \& Facts.} {Emoji |  definition, examples, history, \& facts.}
+\newblock
+\begin{APACrefURL} \url{https://www.britannica.com/topic/emoji}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+E.~Kendall%
+}{%
+E.~Kendall%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+Britannica2025}
+\APACinsertmetastar {%
+Britannica2025}%
+\begin{APACrefauthors}%
+Kendall, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{Jun}{}.
+\newblock
+\APACaddressPublisher{}{Encyclopædia Britannica, inc.}
+\newblock
+\begin{APACrefURL} \url{https://www.britannica.com/topic/emoji}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Khan%
+, Majumdar%
+\BCBL {}\ \BBA {} Mondal%
+}{%
+Khan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+Khan2025}
+\APACinsertmetastar {%
+Khan2025}%
+\begin{APACrefauthors}%
+Khan, A.%
+, Majumdar, D.%
+\BCBL {}\ \BBA {} Mondal, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sentiment analysis of emoji fused reviews using machine
+  learning and Bert} {Sentiment analysis of emoji fused reviews using machine
+  learning and bert}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Scientific Reports}{15}{1}{}.
+\newblock
+\begin{APACrefURL} \url{https://pubmed.ncbi.nlm.nih.gov/40038511/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1038/s41598-025-92286-0} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Khoo%
+\ \BBA {} Johnkhan%
+}{%
+Khoo%
+\ \BBA {} Johnkhan%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Khoo_Johnkhan_2017}
+\APACinsertmetastar {%
+Khoo_Johnkhan_2017}%
+\begin{APACrefauthors}%
+Khoo, C\BPBI S.%
+\BCBT {}\ \BBA {} Johnkhan, S\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lexicon-based sentiment analysis: Comparative evaluation
+  of six sentiment lexicons} {Lexicon-based sentiment analysis: Comparative
+  evaluation of six sentiment lexicons}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Information Science}{44}{4}{491–511}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1177/0165551517703514}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1177/0165551517703514} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kimura%
+\ \BBA {} Katsurai%
+}{%
+Kimura%
+\ \BBA {} Katsurai%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Kimura_Katsurai2017}
+\APACinsertmetastar {%
+Kimura_Katsurai2017}%
+\begin{APACrefauthors}%
+Kimura, M.%
+\BCBT {}\ \BBA {} Katsurai, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automatic Construction of an Emoji Sentiment Lexicon}
+  {Automatic construction of an emoji sentiment lexicon}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~1033–1036).
+\newblock
+\APACaddressPublisher{New York, NY, USA}{Association for Computing Machinery}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1145/3110025.3110139}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1145/3110025.3110139} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kusal%
+, Patil%
+\BCBL {}\ \BBA {} Kotecha%
+}{%
+Kusal%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2025}}%
+}]{%
+Kusal2025}
+\APACinsertmetastar {%
+Kusal2025}%
+\begin{APACrefauthors}%
+Kusal, S.%
+, Patil, S.%
+\BCBL {}\ \BBA {} Kotecha, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{{\APACmonth{02}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Multimodal text-emoji fusion using deep neural networks
+  for text-based emotion detection in online communication} {Multimodal
+  text-emoji fusion using deep neural networks for text-based emotion detection
+  in online communication}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Big Data}{12}{1}{}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1186/s40537-025-01062-4}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1186/s40537-025-01062-4} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lee%
+, Gan%
+, Tan%
+\BCBL {}\ \BBA {} Abdullah%
+}{%
+Lee%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Lee2019}
+\APACinsertmetastar {%
+Lee2019}%
+\begin{APACrefauthors}%
+Lee, V\BPBI L\BPBI S.%
+, Gan, K\BPBI H.%
+, Tan, T\BPBI P.%
+\BCBL {}\ \BBA {} Abdullah, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Semi-supervised Learning for Sentiment Classification
+  using Small Number of Labeled Data} {Semi-supervised learning for sentiment
+  classification using small number of labeled data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Procedia Computer Science}{161}{}{577–584}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/j.procs.2019.11.159}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.procs.2019.11.159} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Levi%
+, Hauthal%
+, Mukherjee%
+\BCBL {}\ \BBA {} Ostermann%
+}{%
+Levi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Levi2024}
+\APACinsertmetastar {%
+Levi2024}%
+\begin{APACrefauthors}%
+Levi, S.%
+, Hauthal, E.%
+, Mukherjee, S.%
+\BCBL {}\ \BBA {} Ostermann, F\BPBI O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Visualizing emoji usage in geo-social media across time,
+  space, and topic} {Visualizing emoji usage in geo-social media across time,
+  space, and topic}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Frontiers in Communication}{9}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.frontiersin.org/journals/communication/articles/10.3389/fcomm.2024.1303629}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3389/fcomm.2024.1303629} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liu%
+\ \protect \BOthers {.}}{%
+Liu%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Liu2021}
+\APACinsertmetastar {%
+Liu2021}%
+\begin{APACrefauthors}%
+Liu, C.%
+, Fang, F.%
+, Lin, X.%
+, Cai, T.%
+, Tan, X.%
+, Liu, J.%
+\BCBL {}\ \BBA {} Lu, X.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{Oct}{}.
+\newblock
+\APACrefbtitle {Improving sentiment analysis accuracy with emoji embedding.}
+  {Improving sentiment analysis accuracy with emoji embedding.}
+\newblock
+\APACaddressPublisher{}{Elsevier}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S2666449621000529}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Macrohon%
+, Villavicencio%
+, Inbaraj%
+\BCBL {}\ \BBA {} Jeng%
+}{%
+Macrohon%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Macrohon2022}
+\APACinsertmetastar {%
+Macrohon2022}%
+\begin{APACrefauthors}%
+Macrohon, J\BPBI J\BPBI E.%
+, Villavicencio, C\BPBI N.%
+, Inbaraj, X\BPBI A.%
+\BCBL {}\ \BBA {} Jeng, J\BHBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{10}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Semi-Supervised Approach to Sentiment Analysis of
+  Tweets during the 2022 Philippine Presidential Election} {A semi-supervised
+  approach to sentiment analysis of tweets during the 2022 philippine
+  presidential election}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information}{13}{10}{484}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.3390/info13100484}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/info13100484} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Man%
+\ \BBA {} Chahl%
+}{%
+Man%
+\ \BBA {} Chahl%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Man2022}
+\APACinsertmetastar {%
+Man2022}%
+\begin{APACrefauthors}%
+Man, K.%
+\BCBT {}\ \BBA {} Chahl, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Review of Synthetic Image Data and Its Use in Computer
+  Vision} {A review of synthetic image data and its use in computer
+  vision}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Imaging}{8}{11}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2313-433X/8/11/310}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/jimaging8110310} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mao%
+, Liu%
+\BCBL {}\ \BBA {} Zhang%
+}{%
+Mao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+MAO2024102048}
+\APACinsertmetastar {%
+MAO2024102048}%
+\begin{APACrefauthors}%
+Mao, Y.%
+, Liu, Q.%
+\BCBL {}\ \BBA {} Zhang, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sentiment analysis methods, applications, and
+  challenges: A systematic literature review} {Sentiment analysis methods,
+  applications, and challenges: A systematic literature review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of King Saud University - Computer and
+  Information Sciences}{36}{4}{102048}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S131915782400137X}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.jksuci.2024.102048}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Miller%
+, Thebault-Spieker%
+, Chang%
+\BCBL {}\ \BBA {} Hecht%
+}{%
+Miller%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+Miller2016}
+\APACinsertmetastar {%
+Miller2016}%
+\begin{APACrefauthors}%
+Miller, H.%
+, Thebault-Spieker, J.%
+, Chang, S.%
+\BCBL {}\ \BBA {} Hecht, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {“Blissfully happy” or “ready to fight”: Varying
+  Interpretations of Emoji} {“blissfully happy” or “ready to fight”:
+  Varying interpretations of emoji}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ResearchGate}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.researchgate.net/publication/306396532_Blissfully_happy_or_ready_to_fight_Varying_Interpretations_of_Emoji}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mohammad%
+}{%
+Mohammad%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Mohammad_2020}
+\APACinsertmetastar {%
+Mohammad_2020}%
+\begin{APACrefauthors}%
+Mohammad, S\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Practical and Ethical Considerations in the Effective
+  use of Emotion and Sentiment Lexicons} {Practical and ethical considerations
+  in the effective use of emotion and sentiment lexicons}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{arXiv (Cornell University)}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2011.03492} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.48550/arxiv.2011.03492} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mutinda%
+, Mwangi%
+\BCBL {}\ \BBA {} Okeyo%
+}{%
+Mutinda%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Mutinda2023}
+\APACinsertmetastar {%
+Mutinda2023}%
+\begin{APACrefauthors}%
+Mutinda, J.%
+, Mwangi, W.%
+\BCBL {}\ \BBA {} Okeyo, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sentiment Analysis of Text Reviews Using
+  Lexicon-Enhanced Bert Embedding (LeBERT) Model with Convolutional Neural
+  Network} {Sentiment analysis of text reviews using lexicon-enhanced bert
+  embedding (lebert) model with convolutional neural network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Sciences}{13}{3}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2076-3417/13/3/1445}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/app13031445} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Neves%
+\ \BBA {} Ševa%
+}{%
+Neves%
+\ \BBA {} Ševa%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+Neves2019}
+\APACinsertmetastar {%
+Neves2019}%
+\begin{APACrefauthors}%
+Neves, M.%
+\BCBT {}\ \BBA {} Ševa, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{12}{}.
+\newblock
+{\BBOQ}\APACrefatitle {An extensive review of tools for manual annotation of
+  documents} {An extensive review of tools for manual annotation of
+  documents}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Briefings in Bioinformatics}{22}{1}{146-163}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1093/bib/bbz130} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1093/bib/bbz130} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nguyen%
+, Veluchamy%
+, Diop%
+\BCBL {}\ \BBA {} Iqbal%
+}{%
+Nguyen%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+nguyen2018}
+\APACinsertmetastar {%
+nguyen2018}%
+\begin{APACrefauthors}%
+Nguyen, H.%
+, Veluchamy, A.%
+, Diop, M.%
+\BCBL {}\ \BBA {} Iqbal, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Comparative Study of Sentiment Analysis with Product
+  Reviews Using Machine Learning and Lexicon-Based Approaches} {Comparative
+  study of sentiment analysis with product reviews using machine learning and
+  lexicon-based approaches}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{SMU Data Science Review}{1}{4}{Article 7}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Nishimura%
+}{%
+Nishimura%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Nishimura2015}
+\APACinsertmetastar {%
+Nishimura2015}%
+\begin{APACrefauthors}%
+Nishimura, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{Oct.}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A SOCIOLINGUISTIC ANALYSIS OF EMOTICON USAGE IN JAPANESE
+  BLOGS: VARIATION BY AGE, GENDER, AND TOPIC} {A sociolinguistic analysis of
+  emoticon usage in japanese blogs: Variation by age, gender, and
+  topic}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{AoIR Selected Papers of Internet Research}{5}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://spir.aoir.org/ojs/index.php/spir/article/view/8396}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Novak%
+, Smailović%
+, Sluban%
+\BCBL {}\ \BBA {} Mozetič%
+}{%
+Novak%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+KraljNovak2015}
+\APACinsertmetastar {%
+KraljNovak2015}%
+\begin{APACrefauthors}%
+Novak, P\BPBI K.%
+, Smailović, J.%
+, Sluban, B.%
+\BCBL {}\ \BBA {} Mozetič, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{{\APACmonth{12}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Sentiment of Emojis} {Sentiment of emojis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{PLOS ONE}{10}{12}{e0144296}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.1371/journal.pone.0144296}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1371/journal.pone.0144296} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ok%
+, Winston%
+\BCBL {}\ \BBA {} James%
+}{%
+Ok%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Ok2022}
+\APACinsertmetastar {%
+Ok2022}%
+\begin{APACrefauthors}%
+Ok, E.%
+, Winston, O.%
+\BCBL {}\ \BBA {} James, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{04}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lifecycle of Machine Learning Models} {Lifecycle of
+  machine learning models}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Piamonte%
+}{%
+Piamonte%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+Piamonte_2024}
+\APACinsertmetastar {%
+Piamonte_2024}%
+\begin{APACrefauthors}%
+Piamonte, S\BPBI B\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Greater smoking intensity may be linked to early smoking
+  initiation among Filipinos: Evidence from the 2021 Global Adult Tobacco
+  Survey Philippines} {Greater smoking intensity may be linked to early smoking
+  initiation among filipinos: Evidence from the 2021 global adult tobacco
+  survey philippines}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Tobacco Prevention \& Cessation}{10}{November}{1–8}.
+\newblock
+\begin{APACrefURL} \url{https://pmc.ncbi.nlm.nih.gov/articles/PMC11558697}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.18332/tpc/194485} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Robertson%
+, Liza%
+, Nguyen%
+, McGillivray%
+\BCBL {}\ \BBA {} Hale%
+}{%
+Robertson%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Robertson2021SemanticJQ}
+\APACinsertmetastar {%
+Robertson2021SemanticJQ}%
+\begin{APACrefauthors}%
+Robertson, A.%
+, Liza, F\BPBI F.%
+, Nguyen, D.%
+, McGillivray, B.%
+\BCBL {}\ \BBA {} Hale, S\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Semantic Journeys: Quantifying Change in Emoji Meaning
+  from 2012-2018} {Semantic journeys: Quantifying change in emoji meaning from
+  2012-2018}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ArXiv}{abs/2105.00846}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://api.semanticscholar.org/CorpusID:233481422}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rodrigues%
+, Prada%
+, Gaspar%
+, Garrido%
+\BCBL {}\ \BBA {} Lopes%
+}{%
+Rodrigues%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2017}}%
+}]{%
+Rodrigues2017}
+\APACinsertmetastar {%
+Rodrigues2017}%
+\begin{APACrefauthors}%
+Rodrigues, D.%
+, Prada, M.%
+, Gaspar, R.%
+, Garrido, M\BPBI V.%
+\BCBL {}\ \BBA {} Lopes, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lisbon Emoji and Emoticon Database (LEED): Norms for
+  emoji and emoticons in seven evaluative dimensions} {Lisbon emoji and
+  emoticon database (leed): Norms for emoji and emoticons in seven evaluative
+  dimensions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behavior Research Methods}{50}{1}{392–405}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.3758/s13428-017-0878-6}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3758/s13428-017-0878-6} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Santy%
+, Liang%
+, Bras%
+, Reinecke%
+\BCBL {}\ \BBA {} Sap%
+}{%
+Santy%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Santy2023}
+\APACinsertmetastar {%
+Santy2023}%
+\begin{APACrefauthors}%
+Santy, S.%
+, Liang, J\BPBI T.%
+, Bras, R\BPBI L.%
+, Reinecke, K.%
+\BCBL {}\ \BBA {} Sap, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {NLPositionality: Characterizing Design Biases of Datasets and
+  Models.} {Nlpositionality: Characterizing design biases of datasets and
+  models.}
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2306.01943} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sherif%
+\ \protect \BOthers {.}}{%
+Sherif%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Sherif2023}
+\APACinsertmetastar {%
+Sherif2023}%
+\begin{APACrefauthors}%
+Sherif, S\BPBI M.%
+, Alamoodi, A.%
+, Albahri, O.%
+, Garfan, S.%
+, Albahri, A.%
+, Deveci, M.%
+\BDBL {}Kou, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Lexicon annotation in sentiment analysis for dialectal
+  Arabic: Systematic review of current trends and future directions} {Lexicon
+  annotation in sentiment analysis for dialectal arabic: Systematic review of
+  current trends and future directions}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Processing \& Management}{60}{5}{103449}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0306457323001863}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.ipm.2023.103449}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Silva%
+, Coletta%
+\BCBL {}\ \BBA {} Hruschka%
+}{%
+Silva%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+DaSilva2016}
+\APACinsertmetastar {%
+DaSilva2016}%
+\begin{APACrefauthors}%
+Silva, N\BPBI F\BPBI F\BPBI D.%
+, Coletta, L\BPBI F\BPBI S.%
+\BCBL {}\ \BBA {} Hruschka, E\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{{\APACmonth{06}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Survey and Comparative Study of Tweet Sentiment
+  Analysis via Semi-Supervised Learning} {A survey and comparative study of
+  tweet sentiment analysis via semi-supervised learning}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{ACM Comput. Surv.}{49}{1}{}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1145/2932708} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1145/2932708} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tahayna%
+, Ayyasamy%
+\BCBL {}\ \BBA {} Akbar%
+}{%
+Tahayna%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+Tahayna2022}
+\APACinsertmetastar {%
+Tahayna2022}%
+\begin{APACrefauthors}%
+Tahayna, B\BPBI M\BPBI A.%
+, Ayyasamy, R\BPBI K.%
+\BCBL {}\ \BBA {} Akbar, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{Nov}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automatic Sentiment Annotation of Idiomatic Expressions
+  for Sentiment Analysis Task} {Automatic sentiment annotation of idiomatic
+  expressions for sentiment analysis task}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{10}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Togans%
+, Holtgraves%
+, Kwon%
+\BCBL {}\ \BBA {} {Morales Zelaya}%
+}{%
+Togans%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+TOGANS2021277}
+\APACinsertmetastar {%
+TOGANS2021277}%
+\begin{APACrefauthors}%
+Togans, L\BPBI J.%
+, Holtgraves, T.%
+, Kwon, G.%
+\BCBL {}\ \BBA {} {Morales Zelaya}, T\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Digitally saving face: An experimental investigation of
+  cross-cultural differences in the use of emoticons and emoji} {Digitally
+  saving face: An experimental investigation of cross-cultural differences in
+  the use of emoticons and emoji}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Pragmatics}{186}{}{277-288}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0378216621003350}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.pragma.2021.09.016}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Villavicencio%
+, Macrohon%
+, Inbaraj%
+, Jeng%
+\BCBL {}\ \BBA {} Hsieh%
+}{%
+Villavicencio%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Villavicencio2021}
+\APACinsertmetastar {%
+Villavicencio2021}%
+\begin{APACrefauthors}%
+Villavicencio, C.%
+, Macrohon, J\BPBI J.%
+, Inbaraj, X\BPBI A.%
+, Jeng, J\BHBI H.%
+\BCBL {}\ \BBA {} Hsieh, J\BHBI G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{{\APACmonth{05}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Twitter Sentiment Analysis towards COVID-19 Vaccines in
+  the Philippines Using Naïve Bayes} {Twitter sentiment analysis towards
+  covid-19 vaccines in the philippines using naïve bayes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information}{12}{5}{204}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.3390/info12050204}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/info12050204} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Xie%
+, Lin%
+, Lin%
+, Wang%
+\BCBL {}\ \BBA {} Yu%
+}{%
+Xie%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Xie2021}
+\APACinsertmetastar {%
+Xie2021}%
+\begin{APACrefauthors}%
+Xie, H.%
+, Lin, W.%
+, Lin, S.%
+, Wang, J.%
+\BCBL {}\ \BBA {} Yu, L\BHBI C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A multi-dimensional relation model for dimensional
+  sentiment analysis} {A multi-dimensional relation model for dimensional
+  sentiment analysis}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Information Sciences}{579}{}{832-844}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.sciencedirect.com/science/article/pii/S0020025521008586}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{https://doi.org/10.1016/j.ins.2021.08.052}
+  \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yuki%
+, Maddux%
+\BCBL {}\ \BBA {} Masuda%
+}{%
+Yuki%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2006}}%
+}]{%
+Yuki2006}
+\APACinsertmetastar {%
+Yuki2006}%
+\begin{APACrefauthors}%
+Yuki, M.%
+, Maddux, W\BPBI W.%
+\BCBL {}\ \BBA {} Masuda, T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Are the windows to the soul the same in the East and
+  West? Cultural differences in using the eyes and mouth as cues to recognize
+  emotions in Japan and the United States} {Are the windows to the soul the
+  same in the east and west? cultural differences in using the eyes and mouth
+  as cues to recognize emotions in japan and the united states}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Experimental Social
+  Psychology}{43}{2}{303–311}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1016/j.jesp.2006.02.004}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1016/j.jesp.2006.02.004} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zahra%
+\ \BBA {} Ahmed%
+}{%
+Zahra%
+\ \BBA {} Ahmed%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+Ahmed2025}
+\APACinsertmetastar {%
+Ahmed2025}%
+\begin{APACrefauthors}%
+Zahra, T.%
+\BCBT {}\ \BBA {} Ahmed, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{May}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Generational Differences in Emoji Interpretation: A
+  Study of Millennial, Gen Z, and Baby Boomers} {Generational differences in
+  emoji interpretation: A study of millennial, gen z, and baby boomers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Advance Social Science Archive
+  Journal}{3}{2}{857–864}.
+\newblock
+\begin{APACrefURL} \url{https://assajournal.com/index.php/36/article/view/383}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zapanta%
+}{%
+Zapanta%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+zapanta2025sentiment}
+\APACinsertmetastar {%
+zapanta2025sentiment}%
+\begin{APACrefauthors}%
+Zapanta, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2025}{{\APACmonth{05}}}{13}.
+\newblock
+\APACrefbtitle {What Is a Sentiment Score? Scales, Formulas, and How to Use
+  It.} {What is a sentiment score? scales, formulas, and how to use it.}
+\newblock
+\APACaddressPublisher{}{Thematic}.
+\newblock
+\begin{APACrefURL}
+  \url{https://getthematic.com/insights/what-is-a-sentiment-score/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: 2025-07-07}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zou%
+\ \BBA {} Wang%
+}{%
+Zou%
+\ \BBA {} Wang%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Zou_Wang_2023}
+\APACinsertmetastar {%
+Zou_Wang_2023}%
+\begin{APACrefauthors}%
+Zou, H.%
+\BCBT {}\ \BBA {} Wang, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A semi-supervised short text sentiment classification
+  method based on improved Bert model from unlabelled data} {A semi-supervised
+  short text sentiment classification method based on improved bert model from
+  unlabelled data}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Big Data}{10}{1}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://journalofbigdata.springeropen.com/articles/10.1186/s40537-023-00710-x}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1186/s40537-023-00710-x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
