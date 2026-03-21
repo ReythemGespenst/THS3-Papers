@@ -17,12 +17,13 @@ Eastern and western cultures differed dramatically in many aspects, such as thei
 
 Meanwhile, the Philippines, similar to some other nations, had both eastern and western influences when it came to culture. A paper by Dolot \& Opina (\citeyear{Dolot2021}) went into detail about how Filipinos used graphicons such as images, videos, stickers, and emojis. The most frequently used graphicon was emojis. The study found that Filipinos had some behaviors similar to those mentioned in previous studies but also exhibited unique traits not discussed earlier, such as the way Filipinos tended to use multiple different emojis together, used emojis to grab people’s attention, and sometimes used emojis non-sensically to convey humor.
 
-\section{\hl{Cultural Interpretation of Emojis}}
+\section{Cultural Interpretation of Emojis}
 
 Different cultures interpret emojis differently, the cross-cultural communication study by Togans et. al. observed younger Japanese users, especially women, incorporate emoji heavily into messaging as part of “kawaii” culture (Dharma et. al., 2022). These findings suggest that the Philippines, which ranks among the highest countries using emojis outside the US, likely exhibits its own distinctive emoji norms (Kejriwal et. al., 2021). In fact, one study noted that the Philippines alongside Brazil and India as the top users of emoji outside the US. Table 1 summarizes the reported emoji usage statistics in Western versus Filipino and East Asian contexts.
 
 %Table for Emoji Usage statistics in culture%
-\begin{center}
+\begin{table}[ht]
+	\centering
 	\begin{tabular}{m{7em} m{20em} m{5em}}
 		Region/Culture & Usage/Statistic & Source \\ [0.5ex]
 		\hline
@@ -34,7 +35,8 @@ Different cultures interpret emojis differently, the cross-cultural communicatio
 		\hline
 		Philippines & Among highest global emoji usage; identified as a top country for emoji use outside the US & Mayank Kejriwal (\citeyear{Kejriwal2021}) \\
 	\end{tabular}
-\end{center}
+	\caption{Table 1: Emoji usage statistics across cultures}
+\end{table}
 
 An example of cultural differences in emoji perception can be seen in the 2021 ESR valence ranking. The “\emoji{smiling-face}” (smiling-face) emoji is considered highly positive in Western cultures. However, in the Philippines, it can convey feelings of shyness or romantic excitement, known as “kilig,” which is unique to Filipino culture. Similarly, while the “\emoji{face-with-tears-of-joy}” (face with tears of joy) emoji is rated very positively by English-based sentiment models, Filipino Gen Z users often use the “\emoji{skull}” (skull) emoji to express sarcasm and mild humor. This demonstrates that cultural background and age significantly influence how emojis are interpreted. As a result, general sentiment models may misinterpret many expressions within the Filipino language.
 
@@ -62,7 +64,8 @@ Both used the Naive Bayes technique, a statistical model for predicting sentimen
 Additionally, Campit (2023) did a customer satisfaction study through sentiment analysis of the university president's satisfaction survey. Following previous works, this work used manual annotation and the Naive Bayes algorithm, using Google Translate to overcome the challenge of texts in multiple languages. The study used preprocessing techniques like removing Filipino stop words and stemming. Through manual annotation, 22,380 and 27,834 sentences were positively and neutrally labeled, respectively, with 5,786 negatively labeled, showing a generally positive sentiment about the university president (Campit, 2023). These papers contribute substantially to knowledge of sentiment dynamics in the Filipino case and demonstrate the challenge of analyzing with multilingual and dialectally variant texts.
 
 
-\begin{center}
+\begin{table}
+	\centering
 	\begin{tabular}{|m{10em} | m{7em} | m{5em} | m{7em} |}
 		\hline
 		Research Key & Features & Annotation type & Limitations \\ [0.5ex]
@@ -102,11 +105,12 @@ Additionally, Campit (2023) did a customer satisfaction study through sentiment 
 		\newline - Limitations of the free version of RapidMiner application \\
 		\hline
 	\end{tabular}
-\end{center}
+\end{table}
 
 \newpage
 
-\begin{center}
+\begin{table}
+	\centering
 	\begin{tabular}{|m{10em} | m{7em} | m{5em} | m{7em} |}
 		\hline
 		A Semi-Supervised Approach to Sentiment Analysis of Tweets during the 2022 Philippine Presidential Election (Macrohon et al., \citeyear{Macrohon2022}) &
@@ -136,7 +140,8 @@ Additionally, Campit (2023) did a customer satisfaction study through sentiment 
 		- Bert model was not fine tuned\\
 		\hline
 	\end{tabular}
-\end{center}
+	\caption{Table 2: Sentiment Analysis in the Philippines}
+\end{table}
 
 \section{Emoji Sentiment Lexicons}
 
@@ -206,7 +211,10 @@ This image shows the top emojis in each emotion category in the Multidimensional
 		- Translated Arabic texts to English not capturing their full meaning. Colloquial expressions and dialects not fully captured \\
 		\hline
 	\end{tabular}
+\end{center}
 	\newpage
+\begin{table}
+	\centering
 	\begin{tabular}{|m{10em} | m{7em} | m{5em} | m{7em} |}
 		\hline
 		Emojis in Lexicon-Based Sentiment Analysis: Creating Emoji Sentiment Lexicons from Unlabeled Corpora (Haak, \citeyear{Haak2021}) &
@@ -222,7 +230,8 @@ This image shows the top emojis in each emotion category in the Multidimensional
 		\newline - Does not capture other positive emotions such as anticipation surprise and trust \\
 		\hline
 	\end{tabular}
-\end{center}
+	\caption{Emoji Sentiment Lexicons done by other studies}
+\end{table}
 
 As emojis have a non-insignificant effect on the outcome of sentiment analysis tasks, fully understanding how emojis may affect such outcomes is important. One research suggests, "Emoji are an important substitute for non-verbal cues (such as facial expressions) in online written communication" (Chen et al., 2024). Online, emojis' meaning varies by age, gender, and especially culture (Chen et. al., 2024). However, in practice, a given emoji may not carry the same emotional nuance for a Filipino user as it does for Western users. For example, a study by Togans et. al. in 2021 regarding cross-cultural communication found that East Asian Participants (e.g., Chinese and Korean) use emojis more frequently and carefully than Americans, reflecting indirect communication styles and concern for social harmony. These cultural patterns have practical effects. For instance, Emojis that indicate a smile or laughter in one culture may carry additional connotations in another culture.
 

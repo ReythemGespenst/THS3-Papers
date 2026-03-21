@@ -2,7 +2,7 @@
 \contentsline {chapter}{\numberline {2}Introduction}{vii}{}%
 \contentsline {chapter}{\numberline {3}Related Works}{ix}{}%
 \contentsline {section}{\numberline {3.1}Cultural differences in emoji use}{ix}{}%
-\contentsline {section}{\numberline {3.2}\texthl {Cultural Interpretation of Emojis}}{ix}{}%
+\contentsline {section}{\numberline {3.2}Cultural Interpretation of Emojis}{ix}{}%
 \contentsline {section}{\numberline {3.3}The Evolution of Emoji Usage}{x}{}%
 \contentsline {section}{\numberline {3.4}Sentiment analysis in the Philippines}{xi}{}%
 \contentsline {section}{\numberline {3.5}Emoji Sentiment Lexicons}{xiii}{}%
@@ -24,3 +24,4 @@
 \contentsline {subsection}{\numberline {5.1.1}EDA}{xxvi}{}%
 \contentsline {subsection}{\numberline {5.1.2}Lexicon}{xxix}{}%
 \contentsline {section}{\numberline {5.2}Predictive Analysis Results}{xxxi}{}%
+\contentsline {chapter}{\numberline {6}Recommendations}{xxxiii}{}%

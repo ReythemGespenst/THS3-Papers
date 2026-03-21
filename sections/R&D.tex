@@ -54,7 +54,8 @@ From those annotations a significant number of emojis were removed due to a lack
 
 All 4 machine learning algorithms were trained on the features from the lexicon and from the TFIDF word embeddings that was extracted from 12 thousand over rows of annotations and after getting the average from the five folds there are new things we learned about the lexicon. The average accuracy across all 4 models Logistic regression got the highest at 0.699 followed closely by random forest which got an average accuracy of 0.6930. Random forest also achieved the highest F1 at 0.4581 although all 4 models had similarly low F1 scores which was partly caused by the dataset being skewed more positive than negative
 
-\begin{center}
+\begin{table}
+	\centering
 	\begin{tabular}{|m{9em} |m{5em} |m{5em} |m{5em} |m{5em} |}
 		\hline
 		Algorithm & Accuracy & Precision & Recall & F1 Score \\ [0.5ex]
@@ -68,6 +69,9 @@ All 4 machine learning algorithms were trained on the features from the lexicon 
 		Random Forest & 0.6930 & 0.5240 & 0.4750 & 0.4750 \\
 		\hline
 	\end{tabular}
-	
-	Figure Something Something: The 
-\end{center}
+	\caption{Machine Learning predictive pipeline results}
+\end{table}
+
+\chapter{Recommendations}
+
+For future similar works, they should consider the addition of more features and/or dimensions such as emotion, intensity, arousal and dominance to better capture the complexity of language and sentiment and how culture affects these variables. Additionally, incorporating other sources of Filipino texts besides tweets is also recommended to broaden the scope of the lexicon. Future studies would also benefit from having a larger pool of annotations to work with to further improve the performance of future lexicons. Finally, using other machine learning algorithms and applying hyperparameter tuning is also recommended to further improve the performance of the lexicon when it comes to classification.
