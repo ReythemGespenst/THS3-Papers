@@ -1,0 +1,26 @@
+\contentsline {chapter}{\numberline {1}Abstract}{vi}{}%
+\contentsline {chapter}{\numberline {2}Introduction}{vii}{}%
+\contentsline {chapter}{\numberline {3}Related Works}{ix}{}%
+\contentsline {section}{\numberline {3.1}Cultural differences in emoji use}{ix}{}%
+\contentsline {section}{\numberline {3.2}\texthl {Cultural Interpretation of Emojis}}{ix}{}%
+\contentsline {section}{\numberline {3.3}The Evolution of Emoji Usage}{x}{}%
+\contentsline {section}{\numberline {3.4}Sentiment analysis in the Philippines}{xi}{}%
+\contentsline {section}{\numberline {3.5}Emoji Sentiment Lexicons}{xiii}{}%
+\contentsline {section}{\numberline {3.6}Language Models}{xix}{}%
+\contentsline {chapter}{\numberline {4}Methodology}{xx}{}%
+\contentsline {section}{\numberline {4.1}Data Sources}{xx}{}%
+\contentsline {section}{\numberline {4.2}Data Cleaning}{xxi}{}%
+\contentsline {section}{\numberline {4.3}Data annotation}{xxi}{}%
+\contentsline {section}{\numberline {4.4}Lexicon construction}{xxii}{}%
+\contentsline {section}{\numberline {4.5}Data analysis}{xxii}{}%
+\contentsline {subsection}{\numberline {4.5.1}Descriptive Analysis}{xxii}{}%
+\contentsline {subsection}{\numberline {4.5.2}Comparative Analysis}{xxiii}{}%
+\contentsline {subsubsection}{Statistical Similarity and Agreement Analysis}{xxiii}{}%
+\contentsline {subsubsection}{Comparative Sentiment Ranking and Emoji Overlap}{xxiii}{}%
+\contentsline {subsection}{\numberline {4.5.3}Interpretation and Cultural Context Analysis}{xxiv}{}%
+\contentsline {subsection}{\numberline {4.5.4}Predictive analysis}{xxiv}{}%
+\contentsline {chapter}{\numberline {5}Results and Discussions}{xxvi}{}%
+\contentsline {section}{\numberline {5.1}Experiments/Results}{xxvi}{}%
+\contentsline {subsection}{\numberline {5.1.1}EDA}{xxvi}{}%
+\contentsline {subsection}{\numberline {5.1.2}Lexicon}{xxix}{}%
+\contentsline {section}{\numberline {5.2}Predictive Analysis Results}{xxxi}{}%
