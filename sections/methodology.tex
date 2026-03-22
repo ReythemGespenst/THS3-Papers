@@ -43,19 +43,21 @@ An Exploratory Data Analysis (EDA) will be performed on the labeled dataset to i
 
 \subsection{Comparative Analysis}
 
-This study will conduct a thorough comparison of the new sentiment lexicon of emoji with two established benchmarks: the Emoji Sentiment Ranking (ESR) lexicon by Novak et al. (2015) and the Multidimensional Lexicon of Emojis by Godard \& Holtzman (2022). The comparison will allow us to identify statistical similarity and practical agreement of sentiment values across lexicons and uncover significant differences, where applicable, elicited by culture and contextual influences.
+The researchers will conduct a thorough comparison of the new sentiment lexicon of emoji with an established benchmark: the Emoji Sentiment Ranking (ESR) lexicon by Novak et al. (2015) The comparison will allow us to identify statistical similarity and practical agreement of sentiment values across lexicons and uncover significant differences, where applicable, elicited by culture and contextual influences.
+
 
 \subsubsection{Statistical Similarity and Agreement Analysis}
 
-To quantify how closely this study’s sentiment scores align with those of the reference lexicons, we will compute the coefficient of determination (R²). This metric will indicate the proportion of variance in this study’s lexicon's sentiment scores that can be explained by the reference lexicons, offering a measure of overall predictive consistency.
+To quantify how closely the sentiment scores align per annotator, the researchers will use Krippendorff’s alpha. This metric will indicate the variance of agreement in both lexicon’s sentiment scores that can be explained by the reference lexicons, offering a measure of overall predictive consistency.
 
-Beyond variance-based measures, the researchers will apply the Spearman rank-order correlation to assess the degree of monotonic relationship between our sentiment scores and those from the other lexicons. Spearman's correlation is particularly well-suited for ordinal and non-parametric data, enabling the determination of whether emojis are ranked in a similar order of sentiment intensity across lexicons, regardless of the exact score magnitudes.
+Beyond variance-based measures, the researchers will apply the Spearman rank-order correlation to assess the degree of monotonic relationship between our sentiment scores and those from the other lexicons. Spearman's correlation is particularly well-suited for ordinal and non-parametric data, enabling us to determine whether emojis are ranked in a similar order of sentiment intensity across lexicons, regardless of the exact score magnitudes.
 
-Besides, the Pearson correlation measure will be employed to assess the linear correspondence of sentiment score ranks for the top-ranked positive, negative, and neutral emojis in each lexicon. Pearson's correlation will reveal if the size of sentiment scores—more than their rank order—is retained across datasets for the most extreme sentiment-carrying emojis.
+The Pearson correlation measure will be employed to assess the linear correspondence of sentiment score ranks for the top-ranked positive, negative, and neutral emojis in each lexicon. Pearson's correlation will reveal if the size of sentiment scores—more than their rank order—is retained across datasets for the most extreme sentiment-carrying emojis.
 
 \subsubsection{Comparative Sentiment Ranking and Emoji Overlap}
 
-Following the statistical analysis, the researchers will directly compare the top sentiment-bearing emojis in each category (positive, negative,  neutral, and etc.) across the lexicons. 
+Following the statistical analysis, the researchers will directly compare the top sentiment-bearing emojis in each category (positive, negative, and neutral) across the lexicons. 
+ 
 This will involve identifying:
 
 \begin{enumerate}
@@ -64,11 +66,11 @@ This will involve identifying:
 	\item The size of difference in sentiment scores for commonly used emojis.
 \end{enumerate}
 
-The researchers will also investigate emoji frequency patterns—how often each top-ranked emoji occurs in the dataset—since such usage counts can impact perceived sentiment and effective model performance.
+The researchers will also investigate emoji frequency patterns—how often each top-ranked emoji occurs in the dataset, since usage counts can impact perceived sentiment and effective model performance.
 
 \subsection{Interpretation and Cultural Context Analysis}
 
-Where there are differences, the researchers will investigate potential reasons, including cultural differences in the interpretation of emojis, temporal shifts in emojis, or variation in annotation techniques across lexicons. In the interpretive process, how much apparent differences result from statistical randomness, methodological biases, or fundamental cultural sentiment divergence—of particular concern with the Philippines-centric focus of this study’s lexicon, will all be determined.
+Where there are differences, the researchers will investigate potential reasons, including cultural differences in the interpretation of emojis, temporal shifts in emojis, or variation in annotation techniques across lexicons. In the interpretive process, we will determine how much apparent differences result from statistical randomness, methodological biases, or fundamental cultural sentiment divergence—of particular concern with the Philippines-centric focus of our lexicon.
 
 \subsection{Predictive analysis}
 The lexicon will be evaluated through sentiment analysis tasks via machine learning leveraging The lexicon itself, TF-IDF word embeddings and Logistic regression to conduct sentiment analysis on different texts containing emojis. The machine learning models that will be used for this analysis are Logistic regression, Support vector machines, Naive Bayes and Random forest. The labeled dataset will be used to both train and test the sentiment model and cross validation will be used to ensure the consistency of the lexicon. This predictive analysis will serve as a proof of concept as to what an emoji sentiment lexicon can accomplish.

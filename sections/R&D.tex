@@ -1,54 +1,57 @@
 \chapter{Results and Discussions}
 
-\section{Experiments/Results}
-\subsection{EDA}
-When the researchers chose to halt the data collection process, Initial analysis of annotated data came in the form of the EDA. The tasks of frequency analysis, sentiment distribution analysis, clustering, and topic modeling were performed on the data to find possible patterns.
+\section{Exploratory Data Analysis}
 
-The frequency analysis task involved counting the frequency of emoji occurrences to inspect which emojis are the most frequently used. This allows the researchers to distinguish which emojis were most represented and would allow for the researchers to differentiate which emojis have high reliability in its sentiment scores due to the increased number of annotations. The researchers found that emojis such as “\emoji{loudly-crying-face}” and “\emoji{face-with-tears-of-joy}” were found to be among the most numerous.
+Data taken from the MongoDB database is organized into several files with 3 main objects being represented. Annotations, Tweets, and Users. The structure of these objects are as follows:
 
-\begin{center}
-	\includegraphics[width=\linewidth]{30mostcommon.png}
-	Figure 2: Bar chart of the 30 most common emojis (Counted one per tweet)
-\end{center}
-Additionally, counts were done on the ages of participants. The researchers found that most participants were young with most of them being at the age of 20 years old with a non-insignificant number of participants aged 50 years old and above.
+Annotations:
 
-Following this, sentiment distribution was analyzed to identify what the sentiment scores might look like, figure 3 displays the distribution of the sentiment ratings by the participants. The bar graph displays a skew to the positive side indicating that more annotations have a positive rating and that sentiment scores will lean to a more positive score.
+\begin{enumerate}
+	\item \_id (Identifier for each annotation instance)
+	\item userId (Identifier for the user who gave label)
+	\item tweetId (Identifier for the tweet given the label)
+	\item label (Categorical value representing sentiment score)
+	\item createdAt (Date the annotation was made)
+\end{enumerate}
 
-\begin{center}
-	\includegraphics[width=\linewidth]{ParticipantScoreDist.png}
-	Figure 3: Bar chart of the distribution of sentiment scores given by participants.
-\end{center}
+Tweets:
 
-As the annotation process was not completely finished, some of the tweets were lacking 3 ratings from participants. As such, a quick inspection of the number of tweets without 3 annotations was done to assess how much of the data lacks sufficient annotations to be assessed according to the methods of the researchers.
+\begin{enumerate}
+	\item \_id (Identifier for each tweet instance)
+	\item content (String content of the tweet)
+	\item labelCount (Number of labels given to the tweet)
+\end{enumerate}
 
-\begin{center}
-	\includegraphics[width=\linewidth]{PieChartAnnot.png}
-	Figure 4: Pie chart of the number of how many annotations lack the 3 for analysis.
-\end{center}
+Users:
 
-Lastly, a co-occurrence analysis of the emojis was done to observe patterns in the occurrences of emojis. A heatmap was created of the top 8 emojis for visibility.
+\begin{enumerate}
+	\item \_id (Identifier for each user instance)
+	\item first\_Name (Optional, first name of this user)
+	\item last\_Name (Optional, last name of this user)
+	\item age (Optional, last name of this user)
+	\item sex (Categorical: Male, Female, Rather not say)
+	\item email (Email of the user)
+	\item password (Password of the user for this account on the annotation website)
+	\item label\_Count (Number of tweets labeled by the user)
+	\item signature (Signature of user as proof of consent)
+	\item consent (True or False, agreement to the consent form)
+	\item isVerified (True or False, is the user's email verified?)
+	\item reigonRaised (Region of the Philippines the user was raised in)
+	\item CurrentReigon (Region of the Philippines the user currently lives in)
+	
+\end{enumerate}
 
-\begin{center}
-	\includegraphics[width=\linewidth]{CooccurenceHeatmap.png}
-	Figure 5: Heatmap of the co-occurrence among the top 8 occurring emojis.
-\end{center}
+Given this, the data is initially checked for duplicates and then merged into a larger dataframe for analysis. The tools used for analysis are all from python libraries and python was used for the implementation of the data analysis.
 
-\subsection{Lexicon}
+Initial analysis of users and tweets yields the following:
 
-The lexicon was constructed using 8880 annotations coming from 74 participants. The top 10\% of participants contributed 40\% of the annotations. Due to that the Mann Whitney U-test was used with 95\% confidence to check for annotator bias.
-From those annotations a significant number of emojis were removed due to a lack of annotations out of the 460 different emojis that were annotated only 273 were kept. The lexicon was sorted based on which emojis had the highest occurrences. The lexicon had similarities with another lexicon, the emoji sentiment ranking with the top emojis in terms of occurrences and their sentiment scores having similarities. 
+Users
+The database has 107 registered users, 27 of which have no record of annotations and 80 having annotated at least 1 tweet. The user's sex, age, and location were taken to check for any correlation and/or causation of these variables and their rating on a tweet. Among those who have annotated, 23 are female, 48 are male, and 8 have not revealed their sex. The user's ages were first binned into generations, with Gen Z being ages 18-29, Millennials being ages 30-45, and Gen X being ages 46-61, and boomers being ages 62 and beyond. These bins were based on market research done by Beresford Research. Once the age groups were established, the users were sorted into them. The study found that 61 users are Gen Z, 7 are Millennials, and 12 are Gen X, with no Boomers having participated. User location was taken in the form of what region of the Philippines the user was raised in and currently lives on. 
 
-From those annotations a significant number of emojis were removed due to a lack of annotations out of the 460 different emojis that were annotated only 273 were kept. The lexicon was sorted based on which emojis had the highest occurrences. The lexicon had similarities with another lexicon, the emoji sentiment ranking with the top emojis in terms of occurrences and their sentiment scores having similarities. 
+Tweets
+The database has 5633 tweets, of which, 3000 have been annotated 3 times, 582 two times, 1084 one time, and 967 having zero annotations. Among these tweets, there are 22563 uses of emojis with 655 unique emojis used. For the annotations of the tweets, there are 11122 annotations, with 25.08\% of these having the rating of 5 (Positive), 23.63\% being 3 (Neutral), 19.65\% being 4 (Slightly Positive), 14.78\% being 2 (Slightly Negative), 7.56\% being 1 (Negative), 7.37\% being 6 (Very Positive), and 1.93\% being 0 (Very Negative).
 
-\begin{center}
-	\includegraphics[width=\linewidth]{Top10Emoji.png}
-	Figure 6: The top 10 most frequent Emojis in the emoji sentiment lexicon
-\end{center}
-
-\begin{center}
-	\includegraphics[width=\linewidth]{SentimentScoreBoxplot.png}
-	Figure 7: Boxplots of sentiment scores from the lexicon
-\end{center}
+Further analysis into
 
 \section{Predictive Analysis Results}
 
@@ -72,6 +75,12 @@ All 4 machine learning algorithms were trained on the features from the lexicon 
 	\caption{Machine Learning predictive pipeline results}
 \end{table}
 
-\chapter{Recommendations}
+\chapter{Conclusions and Recommendations}
+
+\section{Recommendations}
 
 For future similar works, they should consider the addition of more features and/or dimensions such as emotion, intensity, arousal and dominance to better capture the complexity of language and sentiment and how culture affects these variables. Additionally, incorporating other sources of Filipino texts besides tweets is also recommended to broaden the scope of the lexicon. Future studies would also benefit from having a larger pool of annotations to work with to further improve the performance of future lexicons. Finally, using other machine learning algorithms and applying hyperparameter tuning is also recommended to further improve the performance of the lexicon when it comes to classification.
+
+\section{Conclusion}
+
+Through the collection and annotation of Filipino tweets, the researchers were able to capture interpretations of emojis that are often overlooked in Western-centric lexicons. The comparative analysis shows both alignments and divergences between different constructed lexicons and the existing benchmarks. Furthermore, the predictive analysis showed that integrating the lexicon with machine learning models does yield reasonably strong performance, with the results from the Logistic Regression and Random Forest models achieving high accuracy among the tested approaches. Despite the set limitations such as the dataset imbalance and relatively modest F1 scores, the findings show the value of using culturally adapted resources in improving sentiment classification. Overall, this research contributes to the growing body of Filipino Natural Language Processing, providing a foundation for inclusive sentiment analysis in the Philippine Context.

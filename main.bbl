@@ -1,17 +1,6 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle {Top7}}{%
-\APACcitebtitle {Top7}}{%
-{\protect \APACyear {{\protect \bibnodate {}}}}%
-}]{%
-Top7}
-\APACinsertmetastar {%
-Top7}%
-\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Alahmary%
 \ \BBA {} Al-Dossari%
 }{%
@@ -691,6 +680,31 @@ Dharma, H\BPBI R\BPBI C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Dictionary.com%
+}{%
+Dictionary.com%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Millennials_2022}
+\APACinsertmetastar {%
+Millennials_2022}%
+\begin{APACrefauthors}%
+Dictionary.com.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{{\APACmonth{09}}}{}.
+\newblock
+\APACrefbtitle {Gen Z explains emoji to millenials.} {Gen z explains emoji to
+  millenials.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.dictionary.com/e/gen-z-explains-emoji-to-millennials/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Dolot%
 \ \BBA {} Opina%
 }{%
@@ -1072,23 +1086,6 @@ Hsiao, K\BHBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-\APACcitebtitle
-  {https://www.dictionary.com/e/gen-z-explains-emoji-to-millennials/}}{%
-\APACcitebtitle
-  {https://www.dictionary.com/e/gen-z-explains-emoji-to-millennials/}}{%
-{\protect \APACyear {2022}}%
-}]{%
-Millennials_2022}
-\APACinsertmetastar {%
-Millennials_2022}%
-\APACrefYearMonthDay{2022}{{\APACmonth{09}}}{}.
-\newblock
-\begin{APACrefURL}
-  \url{https://www.dictionary.com/e/gen-z-explains-emoji-to-millennials/}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Hutto%
 \ \BBA {} Gilbert%
 }{%
@@ -1166,7 +1163,7 @@ Jang, B.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2019}{{\APACmonth{08}}}{}.
+\APACrefYearMonthDay{2019}{August}{}.
 \newblock
 {\BBOQ}\APACrefatitle {Word2vec convolutional neural networks for
   classification of news articles and tweets} {Word2vec convolutional neural
@@ -1304,7 +1301,8 @@ Kendall%
 \newblock
 \APACrefYearMonthDay{2025}{{\APACmonth{08}}}{}.
 \newblock
-\APACrefbtitle {Emoji | Definition, Examples, History, \& Facts.} {Emoji |  definition, examples, history, \& facts.}
+\APACrefbtitle {Emoji | Definition, Examples, History, \& Facts.} {Emoji |
+  definition, examples, history, \& facts.}
 \newblock
 \begin{APACrefURL} \url{https://www.britannica.com/topic/emoji}
   \end{APACrefURL}
@@ -2190,6 +2188,24 @@ Togans, L\BPBI J.%
 \newblock
 \begin{APACrefDOI} \doi{https://doi.org/10.1016/j.pragma.2021.09.016}
   \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACcitebtitle {Top 7 Metrics to Evaluate Sentiment Analysis Models}}{%
+\APACcitebtitle {Top 7 Metrics to Evaluate Sentiment Analysis Models}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Top7}
+\APACinsertmetastar {%
+Top7}%
+\APACrefbtitle {Top 7 Metrics to Evaluate Sentiment Analysis Models.} {Top 7
+  metrics to evaluate sentiment analysis models.}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.getfocal.co/post/top-7-metrics-to-evaluate-sentiment-analysis-models}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

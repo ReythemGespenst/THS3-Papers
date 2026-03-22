@@ -20,8 +20,9 @@
 \contentsline {subsection}{\numberline {4.5.3}Interpretation and Cultural Context Analysis}{xxiv}{}%
 \contentsline {subsection}{\numberline {4.5.4}Predictive analysis}{xxiv}{}%
 \contentsline {chapter}{\numberline {5}Results and Discussions}{xxvi}{}%
-\contentsline {section}{\numberline {5.1}Experiments/Results}{xxvi}{}%
-\contentsline {subsection}{\numberline {5.1.1}EDA}{xxvi}{}%
-\contentsline {subsection}{\numberline {5.1.2}Lexicon}{xxix}{}%
-\contentsline {section}{\numberline {5.2}Predictive Analysis Results}{xxxi}{}%
-\contentsline {chapter}{\numberline {6}Recommendations}{xxxiii}{}%
+\contentsline {section}{\numberline {5.1}Exploratory Data Analysis}{xxvi}{}%
+\contentsline {section}{\numberline {5.2}Predictive Analysis Results}{xxvii}{}%
+\contentsline {chapter}{\numberline {6}Conclusions and Recommendations}{xxix}{}%
+\contentsline {section}{\numberline {6.1}Recommendations}{xxix}{}%
+\contentsline {section}{\numberline {6.2}Conclusion}{xxix}{}%
+\contentsline {chapter}{References}{xxx}{}%
