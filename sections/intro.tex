@@ -1,3 +1,6 @@
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
 \chapter{Introduction}
 Sentiment analysis is a technique to understand people's opinions and sentiments regarding specific texts or topics (Hutto \& Gilbert, 2014). This analysis is a powerful tool for grasping public opinion on various topics to make informed decisions. Applications of sentiment analysis models are diverse and span multiple fields, such  associated tasks may involve market research, patient monitoring, customer review analysis, and competitor analysis (Mao et. al., 2024). As a significant part of text, emojis can significantly enhance the understanding of sentiment due to providing emotional cues often absent in plain text (Liu et. al., 2021). There are two primary approaches to conducting sentiment analysis using prediction models: machine learning-based (Villavicencio et al., 2021) and lexicon-based (Hutto \& Gilbert, 2014). With a sentiment lexicon being a compilation of words and/or symbols, each assigned a sentiment score, which can be expressed in either binary classification or on a scale.
 
@@ -16,4 +19,33 @@ Seeking to address this gap, the proponents of this study propose the creation o
 	\item To describe the annotated dataset’s characteristics.
 	\item To compile and structure the annotated data into a usable emoji sentiment lexicon for Filipino NLP tasks.
 	\item To evaluate the impact of the Filipino emoji lexicon on sentiment analysis performance.
+\end{enumerate}
+
+\section{Scope and Limitations}
+This study focuses on creating an emoji lexicon that draws inspiration from the Emoji Sentiment Ranking by Novak et al. (2015) and the Multidimensional Lexicon of Emojis by Godard and Holtzman (2022). To develop this lexicon, we will gather text data from Twitter (now X) covering the years 2021 to 2023. The creation process will incorporate manual annotation techniques. Furthermore, we will assess the lexicon's effectiveness by examining its influence on the development of natural language processing (NLP) systems, with a specific emphasis on Filipino social media language, particularly Taglish.
+This study will begin by reviewing established emoji sentiment lexicons like the ESR, MLE, and EMO-SL. Through this review, the researchers aim to understand common annotation strategies, sentiment scoring systems, and lexicon structures. The scope is limited to publicly available lexicons and academic studies. The review will also focus on lexicons that describe emoji sentiment and/or are part of Filipino NLP resources.
+
+The data to be used is raw text data that originates from Philippine social media activity from X (formerly twitter) used in a study by Calalang Et. Al. in 2025. These researchers noted that the dataset was limited to only the tweets with geolocation metadata that spans the Philippines. The dataset originates from 2 smaller datasets which when combined comes to around 17 million tweets. The first dataset was gathered around the time frame of March 2020 - December 2020 and and the 2nd dataset was gathered from December 2021 - October 2022. 
+
+Having recognized the significance of the subject matter, the necessity of expounding on the various aspects covered by the subject results in the discussion below. The data gathering period could enormously impact the sentiment imbibed in the dataset. As data would concur with historic occurrences such as the COVID-19 pandemic and the Filipino elections, the inferred sentiment patterns may turn event-oriented rather than reflective of more ordinary or enduring patterns of emoji usage. The resulting derived lexicon may have ingrained into itself the zeitgeist of the data acquisition time in the form of the time's prevailing social, political, and sentimental mood.
+
+Data preprocessing will involve basic data analysis to understand the important elements of the dataset which will be followed by fitting the data to the needs of the study. This will involve the use of basic aggregation and or data summarization tools and techniques to organize needed parts of the data. Then, instances of the dataset may be filtered out or reformatted to better suit data annotation and lexicon creation. 
+
+Annotation of the dataset will be done to obtain the needed sentiment and a manual, crowdsourced approach will be taken for this goal. Manual annotation is needed for establishing a relevant cultural basis for the sentiment which will be used when constructing the emoji sentiment lexicon and the annotators for this study will be limited to Filipino annotators. The annotation will also be limited to polarity. Since the annotation is being done by Filipino annotators on Filipino data the Filipino perspective of the annotators and cultural nuances will be captured and reflected on the annotated data.
+
+The resulting data will be further processed to find patterns and gather conclusions regarding the results of the annotation process. This would involve data modelling and testing to ensure that the results are correct and the data is properly organized to create the lexicon. This process will focus on interpreting the results of the annotation process and not on its performance.
+
+The construction of the lexicon will be done similarly to that of emoji sentiment lexicons like the ESR. The lexicon will be limited to describing the sentiments of the emojis based on gathered annotated data. Additionally, the lexicon will be created to create sentiment analysis models.
+
+Assessment of the lexicon will be carried out by creating a rule based sentiment analysis model and observing how accurate it is at sentiment classification. The goal of this assessment is to understand the effects of taking cultural intricacies into account when performing sentiment analysis and if it is a significant factor to take into account for lexicon creation.
+
+\section{Significance}
+This study is significant because it addresses this cultural mismatch by developing a Filipino-specific emoji sentiment lexicon. Such a lexicon will encode the local emotional connotations of unicode emojis, based on actual Filipino usage data and validated through manual annotation. The creation of this resource stands to make several key contributions:
+
+\begin{enumerate}
+	\item Additional Resources
+	\item Develops a Filipino-specific emoji sentiment lexicon, encoding local emotional connotations based on actual usage data, and validated through manual annotation.
+	\item Provides a new annotated resource for future NLP and sociolinguistic research.
+	\item Linguistic and Social Insight
+	\item Aligns sentiment scores with Filipino cultural interpretations, offering insight into emoji use patterns in online conversations and contributing to the scarcity of culturally tailored Filipino NLP tools.
 \end{enumerate}

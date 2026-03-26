@@ -1,10 +1,18 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces An example of comparative analysis of emoji usage across different cultures (Yuki et al., 2006)}}{7}{}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces An example of an Emoji Sentiment Lexicon}}{9}{}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Godard \& Holtzman's (2022) Emoji Sentiment Lexicon}}{12}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces An example of comparative analysis of emoji usage across different cultures (Yuki et al., 2006)}}{xi}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces An example of an Emoji Sentiment Lexicon}}{xiii}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Godard \& Holtzman's (2022) Emoji Sentiment Lexicon}}{xvi}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagram representing the whole research pipeline}}{16}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Diagram representing the whole research pipeline}}{xx}{}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Graph showing the top 30 emojis in the annotated dataset}}{24}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Bar graph of the spread of labels from the Annotations section}}{25}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Pie chart that displays the distribution of sentiment across generations.}}{25}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Pie chart that displays the distribution of sentiment across sex groups.}}{26}{}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Box plot that displays the distribution of sentiment across sex groups.}}{26}{}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Bar plot that displays the average labels by region of origin.}}{27}{}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Graph showing the results of the K-means clustering.}}{28}{}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Heatmap visualizing the agreement rates between three generational cohorts--Gen Z, Millennials, and Gen X. }}{30}{}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Semantic Density Plot}}{31}{}%
 \addvspace {10\p@ }

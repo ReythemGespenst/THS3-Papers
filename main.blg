@@ -16,8 +16,13 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.fixed.bib
+I was expecting a `,' or a `}'---line 43 of file myreferences.fixed.bib
+ : 
+ : @article{Jang2019,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "zapanta2025sentiment" isn't style-file defined
---line 847 of file myreferences.fixed.bib
+--line 855 of file myreferences.fixed.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Al-Shabi2020
 Warning--No journal in https://doi.org/10.13140/rg.2.2.23937.84325
@@ -30,45 +35,46 @@ ptr=1, stack=
 ---the literal stack isn't empty for entry Britannica2025
 while executing---line 5079 of file apacite.bst
 Warning--No journal in Ok2022
-You've used 75 entries,
+Warning--No journal in Kiritchenko_Zhu_Mohammad_2014
+You've used 77 entries,
             6951 wiz_defined-function locations,
-            1840 strings with 30137 characters,
-and the built_in function-call counts, 169291 in all, are:
-= -- 20521
-> -- 1425
-< -- 8897
-+ -- 9151
-- -- 169
-* -- 11435
-:= -- 31947
-add.period$ -- 322
-call.type$ -- 75
-change.case$ -- 1384
+            1852 strings with 30636 characters,
+and the built_in function-call counts, 171829 in all, are:
+= -- 20834
+> -- 1435
+< -- 8992
++ -- 9231
+- -- 173
+* -- 11585
+:= -- 32364
+add.period$ -- 329
+call.type$ -- 77
+change.case$ -- 1406
 chr.to.int$ -- 0
-cite$ -- 153
-duplicate$ -- 4502
-empty$ -- 6280
-format.name$ -- 2405
-if$ -- 31141
+cite$ -- 158
+duplicate$ -- 4562
+empty$ -- 6430
+format.name$ -- 2419
+if$ -- 31669
 int.to.chr$ -- 0
-int.to.str$ -- 229
+int.to.str$ -- 235
 missing$ -- 0
-newline$ -- 2149
-num.names$ -- 596
-pop$ -- 2955
+newline$ -- 2188
+num.names$ -- 604
+pop$ -- 3043
 preamble$ -- 1
-purify$ -- 396
+purify$ -- 404
 quote$ -- 0
-skip$ -- 9851
+skip$ -- 10027
 stack$ -- 0
-substring$ -- 9936
-swap$ -- 2511
-text.length$ -- 318
+substring$ -- 10022
+swap$ -- 2543
+text.length$ -- 324
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 6864
-warning$ -- 3
-while$ -- 935
+type$ -- 7042
+warning$ -- 4
+while$ -- 943
 width$ -- 0
-write$ -- 2739
-(There were 2 error messages)
+write$ -- 2784
+(There were 3 error messages)

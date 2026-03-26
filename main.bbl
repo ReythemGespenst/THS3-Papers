@@ -372,6 +372,30 @@ Bravo-Marquez, F.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Brunjes%
+}{%
+Brunjes%
+}{%
+{\protect \APACyear {2026}}%
+}]{%
+Brunjes_2026}
+\APACinsertmetastar {%
+Brunjes_2026}%
+\begin{APACrefauthors}%
+Brunjes.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2026}{Jan}{}.
+\newblock
+\APACrefbtitle {Age range by generation.} {Age range by generation.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.beresfordresearch.com/age-range-by-generation/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Calalang%
 \ \protect \BOthers {.}}{%
 Calalang%
@@ -2052,6 +2076,28 @@ Santy, S.%
   models.}
 \newblock
 \begin{APACrefURL} \url{https://arxiv.org/abs/2306.01943} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACciteatitle {Sentiment analysis of short informal texts}}{%
+\APACciteatitle {Sentiment analysis of short informal texts}}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+Kiritchenko_Zhu_Mohammad_2014}
+\APACinsertmetastar {%
+Kiritchenko_Zhu_Mohammad_2014}%
+{\BBOQ}\APACrefatitle {Sentiment analysis of short informal texts} {Sentiment
+  analysis of short informal texts}.{\BBCQ}
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACjournalVolNumPages{}{50}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.researchgate.net/publication/266965495_Sentiment_Analysis_of_Short_Informal_Texts%7D,
+  DOI={10.1613/jair.4272}, journal={Journal of Artificial Intelligence
+  Research}, author={Kiritchenko and Zhu and Mohammad}, year={2014}, month=aug,
+  pages={723–762}} \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

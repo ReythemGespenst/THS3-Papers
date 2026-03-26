@@ -45,17 +45,139 @@ Given this, the data is initially checked for duplicates and then merged into a 
 
 Initial analysis of users and tweets yields the following:
 
-Users
-The database has 107 registered users, 27 of which have no record of annotations and 80 having annotated at least 1 tweet. The user's sex, age, and location were taken to check for any correlation and/or causation of these variables and their rating on a tweet. Among those who have annotated, 23 are female, 48 are male, and 8 have not revealed their sex. The user's ages were first binned into generations, with Gen Z being ages 18-29, Millennials being ages 30-45, and Gen X being ages 46-61, and boomers being ages 62 and beyond. These bins were based on market research done by Beresford Research. Once the age groups were established, the users were sorted into them. The study found that 61 users are Gen Z, 7 are Millennials, and 12 are Gen X, with no Boomers having participated. User location was taken in the form of what region of the Philippines the user was raised in and currently lives on. 
+\subsection{Users}
+The database has 107 registered users, 27 of which have no record of annotations and 80 having annotated at least 1 tweet. The user's sex, age, and location were taken to check for any correlation and/or causation of these variables and their rating on a tweet. Among those who have annotated, 23 are female, 49 are male, and 8 have not revealed their sex. The user's ages were first binned into generations, with Gen Z being ages 18-29, Millennials being ages 30-45, and Gen X being ages 46-61, and boomers being ages 62 and beyond. These bins were based on market research done by Beresford Research. Once the age groups were established, the users were sorted into them. The study found that 61 users are Gen Z, 7 are Millennials, and 12 are Gen X, with no Boomers having participated. User location was taken in the form of what region of the Philippines the user was raised in and currently lives on. Data on user location is categorized into the 18 regions of the Philippines, while asking both where the user was raised and where the user currently resides in. As the data was collected during the 2nd phase of data collection, the amount of data gathered for it is much less compared to other variables. From the data collected by the researchers, 20 users were raised and currently reside in Region IV-A, 8 were raised and currently reside in NCR, and the rest are unkown.
 
-Tweets
-The database has 5633 tweets, of which, 3000 have been annotated 3 times, 582 two times, 1084 one time, and 967 having zero annotations. Among these tweets, there are 22563 uses of emojis with 655 unique emojis used. For the annotations of the tweets, there are 11122 annotations, with 25.08\% of these having the rating of 5 (Positive), 23.63\% being 3 (Neutral), 19.65\% being 4 (Slightly Positive), 14.78\% being 2 (Slightly Negative), 7.56\% being 1 (Negative), 7.37\% being 6 (Very Positive), and 1.93\% being 0 (Very Negative).
+\subsection{Tweets}
+The database has 5998 tweets, of which, 3351 have been annotated 3 times, 769 two times, 1041 one time, and 837 having zero annotations. Among these tweets, there are 25407 uses of emojis with 685 unique emojis used.
 
-Further analysis into
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{top_30_emojis_2.png}
+	\caption{Graph showing the top 30 emojis in the annotated dataset}
+\end{figure}
+
+\subsection{Annotations}
+The annotations of tweets come in the form of categorical labels ranging from 0 to 6. In total, there are 12621 annotations, with 1.94\% being 0 (Very Negative), 7.36\% being 1 (Negative), 14.22\% being 2 (Slightly Negative), 25.32\% being 3 (Neutral), 19.59\% being 4 (Slightly Positive), 24.26\% of these having the rating of 5 (Positive), and 7.28\% being 6 (Very Positive). 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{sendiment_distribution_general.png}
+	\caption{Bar graph of the spread of labels from the Annotations section}
+\end{figure}
+
+\subsection{Sentiment Distribution}
+In addition to general distribution of labels across tweets, the researchers also looked into the distribution of tweets among age generations and sex.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{Label_Distribution_across_generations.png}
+	\caption{Pie chart that displays the distribution of sentiment across generations.}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{Label_Distribution_across_sex.png}
+	\caption{Pie chart that displays the distribution of sentiment across sex groups.}
+\end{figure}
+
+Based on the distributions, the researchers also analyzed potential correlations between these variables and the labels. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{boxplot_of_ratings_among_sex.png}
+	\caption{Box plot that displays the distribution of sentiment across sex groups.}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{bar_plot_of_region_raised.png}
+	\caption{Bar plot that displays the average labels by region of origin.}
+\end{figure}
+
+Spearman correlation was used to inspect potential correlation between age and rating, this found that a statistically significant ($p < 0.001$) but weak positive correlation ($\rho = 0.0981$) between age and sentiment rating was found. This indicates that while older participants tend to provide slightly higher (more positive) ratings, age is not the primary driver of rating variance. Visual analysis of sex and regional distributions suggests that these demographic factors also have a marginal impact, pointing toward the inherent ambiguity of the tweets themselves as the main source of rating diversity.
+
+Given the dataset’s scale, the following analysis delves into the underlying thematic and behavioral structures that govern Taglish digital communication. The researchers implemented topic modeling using the Latent Dirichlet Allocation (LDA) algorithm and K-Means behavioral clustering, this section seeks to explore how sentiment is constructed. Specifically, the analysis aims to demonstrate that emojis in this Philippine context do not merely reflect sentiment, but function as vital contextual anchors that shift in meaning across different conversational themes— This may range from the more stable positivity of social milestones to the nuanced ambiguity of personal narratives.
+
+\subsection{Topic Modeling: Results of the Latent Dirichlet Allocation (LDA)}
+
+In this case, the result of the LDA returns 8 topics, as this granularity was found to better isolate distinct linguistic registers within the Taglish corpus than the initial choice of 5 topics. The sentiment ratings may be summarized as follows:
+
+\begin{enumerate}
+	\item Emojis as Categorical Anchors (The Positive Ceiling) - In topics regarding social milestones and daily greetings (Topics 5 and 0), emojis operate as unambiguous anchors. Symbols such as \emoji{partying-face} and \emoji{smiling-face} serve to validate socially standardized moments. Because these topics rely on a shared cultural script of politeness and celebration, the emojis act as "sincere markers" that require little interpretation, resulting in the highest mean sentiment and the lowest emotional ambiguity.
+	\item Emojis as Tonal Softeners (The Reactive Middle) - Within the "Casual Reactive" layer (Topics 1, 2, and 4), the role of the emoji evolves into a tool for tonal management. The high frequency of linguistic fillers like "naman" and "na" suggests a rapid, informal conversational flow where the risk of being perceived as "too serious" or "aggressive" is high. In this context, emojis (such as laughter or thanks) function as "softeners," modulating the digital voice to maintain a friendly, non-confrontational atmosphere.
+	\item Emojis as Contextual Keys (Neutral Referrals) - The most complex emoji usage occurs within the "Referral" topics (Topics 3, 6, and 7). When the discourse shifts toward the self ("ako") or specific objects/users ("oy"), the sentiment becomes highly dependent on the poster’s specific intent. Here, emojis are not just decorations; they are contextual keys used to "color" a referral. Because these symbols must bridge the gap between a neutral statement and a specific (potentially negative) feeling, this category exhibits the lowest mean ratings and the highest degree of interpretative variety.
+\end{enumerate}
+
+\subsection{Clustering: Results of the K-means clustering}
+The K-means clustering algorithm identified three primary behavioral clusters based on the sentiment mean ($\mu$) and standard deviation ($\sigma$) of the emoji ratings:
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{k-means.png}
+	\caption{Graph showing the results of the K-means clustering.}
+\end{figure}
+As seen from the graph, the clusters below can be observed
+\begin{enumerate}
+	\item \textbf{Group 0: Ambiguous Positivity.} This cluster is comprised of emojis with a moderately positive mean but a higher degree of emotional ambiguity ($\sigma > 1.4$). These symbols, such as \emoji{love-you-gesture}, \emoji{victory-hand}, \emoji{slightly-smiling-face}, and \emoji{face-screaming-in-fear}, are often "context-dependent," where their sentiment can shift from genuine excitement to irony or mild surprise depending on the surrounding Taglish text.
+	\item \textbf{Group 1: Stable Positivity.} This group consists of emojis with the highest mean sentiment and the lowest variance. Symbols in this cluster, including \emoji{smiling-face-with-heart-eyes}, \emoji{smiling-face}, \emoji{hundred-points}, and \emoji{smiling-face-with-halo}, function as "Consensus Markers." They represent a high level of inter-annotator agreement, serving as clear and stable signals of sincere positive intent.
+	\item \textbf{Group 2: Negative and Dissonant Sentiment.} This cluster captures emojis with the lowest mean ratings, representing negative sentiment. However, symbols like \emoji{thumbs-down}, \emoji{tired-face}, \emoji{anxious-face-with-sweat}, and \emoji{face-with-rolling-eyes} also exhibit significant ambiguity. This suggests that while they are generally perceived as negative, the \textit{intensity} of that negativity (e.g., being truly upset vs. being playfully annoyed) varies significantly across different users.
+\end{enumerate}
+
+\subsection{Inter-Annotator Reliability and Sentiment Consensus}
+\subsubsection{Evaluating Annotator Consistency}
+To validate the reliability of the sentiment labels, Krippendorff’s Alpha ($\alpha$) was calculated across different generational cohorts. For this, the 7-point likert scale was first collapsed into a 3-point scale with scores 0, 1, and 2 mapped to a general negative, score 3 mapped to neutral, and scores 4, 5, and 6 mapped to a general positive. The results indicate a "slight" to "fair" level of agreement ($0.20$ to $0.35$), which is common in subjective sentiment tasks involving nuanced, code-switched (Taglish) text.
+
+Interestingly, Gen Z ($\alpha = 0.3483$) and Gen X ($\alpha = 0.3435$) showed nearly identical levels of internal consistency, despite Gen Z having a significantly larger sample of overlapping tweets (1,992 and 353) along with sample size (61 and 12). In contrast, Millennials ($\alpha = 0.2012$) exhibited the lowest agreement. This disparity suggests that Millennials may interpret the emotional subtext of Taglish tweets—particularly the use of "ironic" or "reactive" emojis—with higher subjectivity than their younger or older counterparts. However it would also be important to note that the results for Gen X and Millennials may be less certain as they both have substantially less of a sample size when compared to Gen Z.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{inter-annotator_agreement.png}
+	\caption{Heatmap visualizing the agreement rates between three generational cohorts--Gen Z, Millennials, and Gen X. }
+\end{figure}
+
+Overall, most agreement rates cluster around 29\% to 31\% which indicates a relatively consistent levels of agreement across different groups. The highest agreement appears within Gen X itself at 34.24\%, shown in dark green, suggesting strong internal consistency. In contrast, Millennials show the lowest self-agreement at 26.22\%, highlighted in red, indicating more variability within that group. Cross-generational comparisons, such as between Gen Z and Millennials or Gen Z and Gen X, show similar agreement levels around 31\%, while the agreement between Millennials and Gen X is slightly lower at 29.22\%.
+
+\subsubsection{The Intensity vs. Direction Gap}
+A critical observation in the reliability data is the "Intensity vs. Direction" gap. While the raw Alpha scores on the 7-point scale (0-6) are relatively low, further analysis after binning the scale into the 3-point version, suggests that users generally agreed on the direction of sentiment (whether a tweet was positive or negative) but disagreed on the intensity (whether a positive tweet was a 4, 5, or 6).
+
+This phenomenon is most likely a byproduct of the 7-point Likert scale’s granularity. In the Philippine digital context, the distinction between "slightly happy" (4) and "very happy" (6) is often blurred by cultural linguistic features, such as the use of hyperbolic emojis (e.g., 😍 or 💀) to express positive reactions. Consequently, the low Alpha scores do not necessarily indicate "incorrect" labeling, but rather reflect the subjective nature of emotional intensity in Taglish discourse.
+
+\subsubsection{Sentiment Distribution and Semantic Density}
+The Semantic Density Plot provides a visual confirmation of this consensus behavior. With a median sentiment score of 3.53, the dataset is anchored in a slightly positive-leaning neutral space.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\textwidth]{semantic_density.png}
+	\caption{Semantic Density Plot}
+\end{figure}
+
+However, the "spread" of the density plot reveals that sentiment in Philippine social media is rarely extreme. There is a high concentration of data points in the "nuanced middle" (3.0 to 4.5), with very thin tails at the absolute extremes (0 and 6). This "middle-ground" density suggests that Filipino users frequently utilize social media for routine, moderate, or ambiguous communication. This clustering in the center explains the overall consensus; users are not polarized into "camps" of hate or joy, but instead navigate a complex, nuanced emotional landscape where subtle shifts in emoji usage—functioning as the "contextual anchors" discussed in the earlier section on the LDA are the primary drivers of meaning.
+
+\section{Synthesis: Contextual Mapping}
+\subsection{The interplay of topic and emoji behavior}
+The synthesis of the thematic groupings and behavioral clusters reveals that sentiment in Taglish discourse is not merely a sum of its parts, but a dynamic relationship between the conversational context and the functional role of the emojis used. By mapping the 8 LDA topics onto the 3 K-Means clusters, we can identify how emotional clarity is maintained--or lost--across different digital registers.
+
+\subsection{Stable Affirmation vs. Tonal Softening}
+A primary finding of this mapping is the divergence between "Social Milestones" and "Casual Interactions."
+
+Topics 5 and 0 (Milestones and Greetings) are almost exclusively anchored by Group 1 Emojis (Stable Positivity, e.g., 🥳, 😇). In these contexts, the emoji acts as a categorical anchor; because the topic is socially standardized, the sentiment is "fixed," resulting in the highest mean ratings (4.00) and high annotator consensus.
+
+In contrast, the "Casual Reactive" layer (Topics 1, 2, and 4) relies on emojis as "Tonal Softeners." While the mean sentiment remains positive (3.62-3.82), the emojis here serve a structural purpose: they mitigate the potential harshness of linguistic fillers like "naman" or "ang." Here, the emoji ensures that the "reactive" nature of the tweet is perceived as friendly rather than aggressive.
+
+\subsection{Semantic Complexity in Referrals}
+The most significant shift occurs in the "Neutral Referrals" (Topics 3, 6, and 7). As the language becomes more focused on the self ("ako"), others, or specific objects, the reliance on Group 0 and Group 2 Emojis increases.
+
+These topics exhibit the lowest mean sentiment (3.08-3.43) and the highest ambiguity.
+
+In these "referral" contexts, emojis function as "Contextual Keys." Because a statement about the self or a specific person is inherently more subjective than a birthday greeting, the emoji must "do more work" to convey the poster's specific intent.
+
+\subsection{Conclusion: The Nuanced Middle Ground}
+This mapping suggests that as tweets become more personal and Tagalog-centric, emotional markers become more dependent on individual interpretation. While the Gen Z cohort ($n=1,992$) demonstrates a stable, albeit fair, consensus ($\alpha=0.34$), the Millennial ($\alpha=0.20$) and Gen X ($\alpha=0.34$) cohorts show greater variance. This disparity is likely a dual function of sample size sensitivity and interpretive dissonance.With smaller overlap counts, these groups are more susceptible to the subjective 'filters' of individual annotators. In the case of Millennials, the lower agreement may reflect their role as a 'linguistic bridge'—where a single emoji like \emoji{loudly-crying-face} may be interpreted as either literal distress or hyperbolic humor depending on the rater's specific digital subculture. Thus, the lower Alpha does not indicate a lack of context, but rather the semantic complexity inherent in a generation that navigates multiple eras of Philippine digital slang."
+
 
 \section{Predictive Analysis Results}
 
-All 4 machine learning algorithms were trained on the features from the lexicon and from the TFIDF word embeddings that was extracted from 12 thousand over rows of annotations and after getting the average from the five folds there are new things we learned about the lexicon. The average accuracy across all 4 models Logistic regression got the highest at 0.699 followed closely by random forest which got an average accuracy of 0.6930. Random forest also achieved the highest F1 at 0.4581 although all 4 models had similarly low F1 scores which was partly caused by the dataset being skewed more positive than negative
+All four machine learning algorithms were trained on the six features extracted from the lexicon and the TF-IDF word embeddings extracted from the training data. Using five fold validation, the averaged results show new insights about the lexicon’s predictive ability. It should be noted that no hyperparameter tuning was performed; all models were run using their base parameters, which may have limited their overall performance. The table below summarizes the performance of each model across the four evaluation metrics: accuracy, F1 score, precision, and recall. In terms of accuracy Logistic regression got the highest at 0.699 average out of all 4 models followed closely by random forest which got an average accuracy of 0.6930, SVM at 0.675, and Naive Bayes at 0.665. While the accuracy scores were relatively close across the top three models, Naive Bayes performed noticeably worse behind in nearly every metric. Random forest also achieved the highest F1 at 0.4581 narrowly beating both SVM and logistic getting a score of .4554 and .4551 respectively with Naive bayes getting an f-1 score of .2662. All four models had similarly low F1 scores likely due to the dataset having a disproportionately higher number of positive annotations.
 
 \begin{table}
 	\centering
@@ -75,6 +197,12 @@ All 4 machine learning algorithms were trained on the features from the lexicon 
 	\caption{Machine Learning predictive pipeline results}
 \end{table}
 
+\section{Comparative Analysis Results}
+
+When comparing the Filipino lexicon against the Emoji Sentiment Ranking (ESR), a well established lexicon, there are a few similarities between the two. One of which being the top 10 emojis in terms of frequency, both lexicons shared the following emojis in their top five: \emoji{face-with-tears-of-joy}, \emoji{loudly-crying-face}, \emoji{smiling-face-with-heart-eyes}, \emoji{smiling-face-with-smiling-eyes}, and \emoji{face-blowing-a-kiss} with the crying laughing emoji: \emoji{face-with-tears-of-joy} ranking first place in terms of frequency in both lexicons. ESR was based on around ~64,000 annotations as only 4\% of the 1.6 million tweets contained emojis. Additionally both lexicons share 219 emojis in common whilst 532 emojis appeared exclusively in ESR and 87 emojis only appear in the Filipino lexicon plausibly because new emojis were introduced after ESR.
+
+The researchers also calculated Spearman’s rank and Pearson’s correlation coefficients to evaluate the relationship between both lexicons. For Spearman's rank coefficient, the analysis yielded Spearman's ρ = 0.5953 and a p-value near 0 which shows the correlations are statistically significant and the lexicons moderately agree in terms of their frequency rank but some emojis are ranked differently. For Pearson’s correlation coefficient, the analysis yielded Pearson r = 0.6225 and a p-value also near 0, meaning that there is also a statistically significant correlation between sentiment ranking but it is moderate and there are quite a few disagreements. To measure agreement between the two lexicons, the researchers used Krippendorff’s alpha. The analysis yielded α nominal = 0.6063 and α interval = 0.5789 which meant a weak agreement between the sentiment scores of both lexicons. Additionally, the Mean absolute error between both lexicons was calculated and was found to be 0.2183. These statistical measures suggest a moderate but imperfect alignment between the Filipino lexicon and the ESR, showing us both the overlap in commonly used emojis and the divergence introduced by cultural, linguistic and temporal differences.
+
 \chapter{Conclusions and Recommendations}
 
 \section{Recommendations}
@@ -83,4 +211,5 @@ For future similar works, they should consider the addition of more features and
 
 \section{Conclusion}
 
-Through the collection and annotation of Filipino tweets, the researchers were able to capture interpretations of emojis that are often overlooked in Western-centric lexicons. The comparative analysis shows both alignments and divergences between different constructed lexicons and the existing benchmarks. Furthermore, the predictive analysis showed that integrating the lexicon with machine learning models does yield reasonably strong performance, with the results from the Logistic Regression and Random Forest models achieving high accuracy among the tested approaches. Despite the set limitations such as the dataset imbalance and relatively modest F1 scores, the findings show the value of using culturally adapted resources in improving sentiment classification. Overall, this research contributes to the growing body of Filipino Natural Language Processing, providing a foundation for inclusive sentiment analysis in the Philippine Context.
+This study set out to construct a culturally adapted lexicon for the Filipino language and evaluate its validity through comparative and predictive analyses. The results show that while the lexicon captures meaningful sentiment, emoji usage in Filipino digital communication is fundamentally more complex than any single lexicon can fully represent. The moderate alignment observed between the Filipino lexicon and the ESR reflects both shared universal emoji usage and meaningful cultural divergence. Certain high-frequency emojis were consistent across both lexicons, yet the sentiment scores diverged in ways attributable to cultural, linguistic, and temporal differences particularly given the addition of new emojis usage since the ESR was published. This suggests that some emojis are relatively stable across cultures whilst others are shaped significantly by local context.
+The predictive analysis reinforced this interpretation. Models achieved moderate accuracy but consistently low F1 scores, pointing to the dataset's class imbalance as a key constraint rather than a failure of the lexicon itself. These findings align with the broader patterns discovered in the exploratory analysis, where sentiment in Taglish communication was found to cluster in a nuanced middle ground, rarely reaching emotional extremes. As the LDA and K-Means analyses demonstrated, emojis in this context function as contextual anchors whose meaning shifts across conversational registers, a complexity that statistical measures alone cannot fully capture.

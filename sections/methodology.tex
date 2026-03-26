@@ -9,7 +9,7 @@ Following the objectives set by the research team, the research process will fol
 The study uses data from datasets compiled by Calalang et al. (2025), consisting of two distinct datasets from the social network platform X/Twitter. The first dataset comprises 10,214,176 tweets downloaded by S. Co et al. (2022), spanning the period of March 2020 to December 2020. The second dataset, aggregated by E. Co et al. (2023), comprises 6,966,696 tweets downloaded from December 2021 to October 2022. The combined dataset comprises 17,180,872 tweets. In both datasets combined there are 5,362,125 tweets containing emojis Calalang et al. (2025). The two datasets were downloaded using the Python Twitter library and were queried within a geographical bounding box around the Philippines, making region-focused analysis easier.
 
 \section{Data Cleaning}
-This research leverages the use of emojis in expressing sentiment in textual information and emphasizing the preservation of culturally distinct meanings. A systematic preprocessing and cleaning of the data pipeline will ensure the dataset is in the most suitable form for sentiment analysis. The first-pass filtering will keep only tweets with at least one emoji since they directly affect the research goal of the study. Tweets with one emoji repeated multiple times will also be saved since repetition could have the effect of being used as an intensifier and has special implications for sentiment. Further cleaning such as the removal of duplicate tweets and the replacement of links and user handles to “\_\_LINK\_\_” and “\_\_USER\_\_” will also be implemented to protect both twitter users by preserving anonymity and the annotators, but the structural position of those components in the text is not lost. Additionally, tweets only containing links, user handles or emojis without any other accompanying text will be filtered out of the dataset alongside tweets containing purely characters from foreign languages. This cleaned version of the dataset is what will be given to the human annotators to label based on the sentiment given by the text. The dataset will be cleaned further to reduce noise and ensure consistency for the next steps of our methodology. Strings with more than 3 repeating characters will be shortened and non text and emoji characters will be removed from the dataset. All letters will be converted into lowercase. All irrelevant columns such as Twitter IDs, geospatial information, and timestamps will also be removed.	
+This research leverages the use of emojis in expressing sentiment in textual information, emphasizing the preservation of culturally distinct meanings. A systematic preprocessing and cleaning of the data pipeline ensured the dataset is in the most suitable form for sentiment analysis. The first-pass filtering keeps only tweets with at least one emoji since they directly affect the research goal of the study. Tweets with one emoji repeated multiple times were also saved since repetition could have the effect of being used as an intensifier and has special implications for sentiment. Further cleaning such as the removal of duplicate tweets and the replacement of links and user handles to “\_\_LINK\_\_” and “\_\_USER\_\_” were also implemented to protect both twitter users by preserving anonymity and the annotators, but the structural position of those components in the text is not lost. Additionally tweets only containing links, user handles or emojis without any other accompanying text were filtered out of the dataset alongside tweets containing purely characters from foreign languages. This cleaned version of the dataset is what was given to the human annotators to label based on the sentiment given by the text. The dataset was cleaned further to reduce noise and ensure consistency for the next steps of our methodology. Strings with more than 3 repeating characters were shortened and non text and emoji characters were removed from the dataset. All letters were converted into lowercase. All irrelevant columns such as Twitter IDs, geospatial information, and timestamps were also be removed
 
 \section{Data annotation}
 
@@ -43,20 +43,19 @@ An Exploratory Data Analysis (EDA) will be performed on the labeled dataset to i
 
 \subsection{Comparative Analysis}
 
-The researchers will conduct a thorough comparison of the new sentiment lexicon of emoji with an established benchmark: the Emoji Sentiment Ranking (ESR) lexicon by Novak et al. (2015) The comparison will allow us to identify statistical similarity and practical agreement of sentiment values across lexicons and uncover significant differences, where applicable, elicited by culture and contextual influences.
-
+Our study conducts a thorough comparison of the new sentiment lexicon of emoji with an established benchmark: the Emoji Sentiment Ranking (ESR) lexicon by Novak et al. (2015). The comparison allowed us to identify statistical similarity and practical agreement of sentiment values across lexicons and uncover significant differences, where applicable, elicited by culture and contextual influences.
 
 \subsubsection{Statistical Similarity and Agreement Analysis}
 
-To quantify how closely the sentiment scores align per annotator, the researchers will use Krippendorff’s alpha. This metric will indicate the variance of agreement in both lexicon’s sentiment scores that can be explained by the reference lexicons, offering a measure of overall predictive consistency.
+To quantify how closely the sentiment scores align with those of the reference lexicons, we used use Krippendorff’s alpha. This metric will quantify the degree of agreement between the sentiment scores of both lexicons, accounting for the possibility of chance agreement.
 
-Beyond variance-based measures, the researchers will apply the Spearman rank-order correlation to assess the degree of monotonic relationship between our sentiment scores and those from the other lexicons. Spearman's correlation is particularly well-suited for ordinal and non-parametric data, enabling us to determine whether emojis are ranked in a similar order of sentiment intensity across lexicons, regardless of the exact score magnitudes.
+Beyond variance-based measures, we will apply the Spearman rank-order correlation to assess the degree of monotonic relationship between the frequency in which our emojis occur and those from the other lexicons. Spearman's correlation is particularly well-suited for ordinal and non-parametric data, enabling us to determine whether emojis are ranked in a similar order of sentiment intensity across lexicons, regardless of the exact score magnitudes.
 
-The Pearson correlation measure will be employed to assess the linear correspondence of sentiment score ranks for the top-ranked positive, negative, and neutral emojis in each lexicon. Pearson's correlation will reveal if the size of sentiment scores—more than their rank order—is retained across datasets for the most extreme sentiment-carrying emojis.
+In addition, Pearson's correlation assesses the linear relationship between the sentiment scores of both lexicons, revealing whether the intensity of the scores corresponds consistently across the two datasets.
 
 \subsubsection{Comparative Sentiment Ranking and Emoji Overlap}
 
-Following the statistical analysis, the researchers will directly compare the top sentiment-bearing emojis in each category (positive, negative, and neutral) across the lexicons. 
+Following the statistical analysis, the researchers directly compared the top sentiment-bearing emojis in each category (positive, negative, and neutral) across the lexicons. This involves identifying:
  
 This will involve identifying:
 
@@ -66,31 +65,27 @@ This will involve identifying:
 	\item The size of difference in sentiment scores for commonly used emojis.
 \end{enumerate}
 
-The researchers will also investigate emoji frequency patterns—how often each top-ranked emoji occurs in the dataset, since usage counts can impact perceived sentiment and effective model performance.
+The researchers also investigated emoji frequency patterns—how often each top-ranked emoji occurs in the dataset—since such usage counts can impact perceived sentiment and effective model performance.
 
 \subsection{Interpretation and Cultural Context Analysis}
 
-Where there are differences, the researchers will investigate potential reasons, including cultural differences in the interpretation of emojis, temporal shifts in emojis, or variation in annotation techniques across lexicons. In the interpretive process, we will determine how much apparent differences result from statistical randomness, methodological biases, or fundamental cultural sentiment divergence—of particular concern with the Philippines-centric focus of our lexicon.
+Where there are differences, we investigated potential reasons, including cultural differences in the interpretation of emojis, temporal shifts in emojis, or variation in annotation techniques across lexicons. The researchers assessed how much apparent differences result from statistical noise, methodological biases, or fundamental cultural sentiment divergence—of particular concern with the Philippines-centric focus of our lexicon.
 
 \subsection{Predictive analysis}
-The lexicon will be evaluated through sentiment analysis tasks via machine learning leveraging The lexicon itself, TF-IDF word embeddings and Logistic regression to conduct sentiment analysis on different texts containing emojis. The machine learning models that will be used for this analysis are Logistic regression, Support vector machines, Naive Bayes and Random forest. The labeled dataset will be used to both train and test the sentiment model and cross validation will be used to ensure the consistency of the lexicon. This predictive analysis will serve as a proof of concept as to what an emoji sentiment lexicon can accomplish.
 
-\begin{itemize}
-	\item Classification procedure
-\end{itemize}
+The lexicon was evaluated through sentiment analysis tasks using machine learning, leveraging TF-IDF word embeddings alongside lexicon-derived features to conduct sentiment analysis on different texts containing emojis. The machine learning models that were used for this analysis are Logistic Regression, Support Vector Machines (SVM), Naive Bayes, Random Forest. The labeled dataset was used to both train and test the sentiment model and cross validation was used to ensure the consistency of the lexicon.
+
+\subsubsection{Classification Procedure}
 \begin{enumerate}
 	\item Emoji Detection - Emojis from the tweet are located and placed in a list.
 	\item Lexicon matching - For each emoji in the list, if it exists in the lexicon, a sentiment its sentiment score will be retrieved from the lexicon.
-	\item Feature extraction - From the sentiment scores of each emoji in the tweet, features are created to train the machine learning models features such as the sum of positive and negative scores and the difference between them and the highest negative and positive scores (Kiritchenko et al. (2014)). Besides that, features from TF-IDF embeddings are also used alongside the lexicon features to train the models.
-	\item Label assignment - Using a train test split, the machine learning models are trained with the features from 80\% of the labelled data and will be predicting the sentiment of the remaining 20\% of the labeled data based on their features assigned to them by the lexicon and TF-IDF embeddings.
+	\item Feature extraction - from the sentiment scores of each emoji in the tweet, features are created to train the machine learning models. The 6 features are the total sum of positive scores, total sum of negative scores, the difference between the sum of positive and negative scores, the mean score, and the maximum scores for both positive and negative Kiritchenko et al. (2014). Besides that features from TF-IDF embeddings are also used alongside the lexicon features to train the models
+	\item Label assignment - using a 80/20 train test split the machine learning models were trained with the features from the training split of the labelled data and predicted the sentiment of the test split of the labelled data based on their features assigned to them by the lexicon and the TF-IDF embeddings.
 \end{enumerate}
 
+\subsubsection{Evaluation Metrics}
 
-\begin{itemize}
-	\item Evaluation Metrics
-\end{itemize}
-
-After the classification, the predicted sentiment labels will be compared to the correct annotations in the labeled dataset. To provide a comprehensive performance assessment, the following metrics will be calculated:
+After the classification the predicted sentiment labels were compared to the correct annotations in the labeled dataset. To provide a comprehensive performance assessment, the following metrics were calculated:
 
 \begin{itemize}
 	\item Accuracy - Proportion of correctly classified tweets out of the total.

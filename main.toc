@@ -1,28 +1,47 @@
-\contentsline {chapter}{\numberline {1}Abstract}{vi}{}%
-\contentsline {chapter}{\numberline {2}Introduction}{vii}{}%
-\contentsline {chapter}{\numberline {3}Related Works}{ix}{}%
-\contentsline {section}{\numberline {3.1}Cultural differences in emoji use}{ix}{}%
-\contentsline {section}{\numberline {3.2}Cultural Interpretation of Emojis}{ix}{}%
-\contentsline {section}{\numberline {3.3}The Evolution of Emoji Usage}{x}{}%
-\contentsline {section}{\numberline {3.4}Sentiment analysis in the Philippines}{xi}{}%
-\contentsline {section}{\numberline {3.5}Emoji Sentiment Lexicons}{xiii}{}%
-\contentsline {section}{\numberline {3.6}Language Models}{xix}{}%
-\contentsline {chapter}{\numberline {4}Methodology}{xx}{}%
-\contentsline {section}{\numberline {4.1}Data Sources}{xx}{}%
-\contentsline {section}{\numberline {4.2}Data Cleaning}{xxi}{}%
-\contentsline {section}{\numberline {4.3}Data annotation}{xxi}{}%
-\contentsline {section}{\numberline {4.4}Lexicon construction}{xxii}{}%
-\contentsline {section}{\numberline {4.5}Data analysis}{xxii}{}%
-\contentsline {subsection}{\numberline {4.5.1}Descriptive Analysis}{xxii}{}%
-\contentsline {subsection}{\numberline {4.5.2}Comparative Analysis}{xxiii}{}%
-\contentsline {subsubsection}{Statistical Similarity and Agreement Analysis}{xxiii}{}%
-\contentsline {subsubsection}{Comparative Sentiment Ranking and Emoji Overlap}{xxiii}{}%
-\contentsline {subsection}{\numberline {4.5.3}Interpretation and Cultural Context Analysis}{xxiv}{}%
-\contentsline {subsection}{\numberline {4.5.4}Predictive analysis}{xxiv}{}%
-\contentsline {chapter}{\numberline {5}Results and Discussions}{xxvi}{}%
-\contentsline {section}{\numberline {5.1}Exploratory Data Analysis}{xxvi}{}%
-\contentsline {section}{\numberline {5.2}Predictive Analysis Results}{xxvii}{}%
-\contentsline {chapter}{\numberline {6}Conclusions and Recommendations}{xxix}{}%
-\contentsline {section}{\numberline {6.1}Recommendations}{xxix}{}%
-\contentsline {section}{\numberline {6.2}Conclusion}{xxix}{}%
-\contentsline {chapter}{References}{xxx}{}%
+\contentsline {chapter}{\numberline {1}Introduction}{2}{}%
+\contentsline {section}{\numberline {1.1}Scope and Limitations}{3}{}%
+\contentsline {section}{\numberline {1.2}Significance}{4}{}%
+\contentsline {chapter}{\numberline {2}Related Works}{5}{}%
+\contentsline {section}{\numberline {2.1}Cultural differences in emoji use}{5}{}%
+\contentsline {section}{\numberline {2.2}Cultural Interpretation of Emojis}{5}{}%
+\contentsline {section}{\numberline {2.3}The Evolution of Emoji Usage}{6}{}%
+\contentsline {section}{\numberline {2.4}Sentiment analysis in the Philippines}{7}{}%
+\contentsline {section}{\numberline {2.5}Emoji Sentiment Lexicons}{9}{}%
+\contentsline {section}{\numberline {2.6}Language Models}{15}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{16}{}%
+\contentsline {section}{\numberline {3.1}Data Sources}{16}{}%
+\contentsline {section}{\numberline {3.2}Data Cleaning}{17}{}%
+\contentsline {section}{\numberline {3.3}Data annotation}{17}{}%
+\contentsline {section}{\numberline {3.4}Lexicon construction}{18}{}%
+\contentsline {section}{\numberline {3.5}Data analysis}{18}{}%
+\contentsline {subsection}{\numberline {3.5.1}Descriptive Analysis}{18}{}%
+\contentsline {subsection}{\numberline {3.5.2}Comparative Analysis}{19}{}%
+\contentsline {subsubsection}{Statistical Similarity and Agreement Analysis}{19}{}%
+\contentsline {subsubsection}{Comparative Sentiment Ranking and Emoji Overlap}{19}{}%
+\contentsline {subsection}{\numberline {3.5.3}Interpretation and Cultural Context Analysis}{20}{}%
+\contentsline {subsection}{\numberline {3.5.4}Predictive analysis}{20}{}%
+\contentsline {subsubsection}{Classification Procedure}{20}{}%
+\contentsline {subsubsection}{Evaluation Metrics}{20}{}%
+\contentsline {chapter}{\numberline {4}Results and Discussions}{22}{}%
+\contentsline {section}{\numberline {4.1}Exploratory Data Analysis}{22}{}%
+\contentsline {subsection}{\numberline {4.1.1}Users}{23}{}%
+\contentsline {subsection}{\numberline {4.1.2}Tweets}{23}{}%
+\contentsline {subsection}{\numberline {4.1.3}Annotations}{24}{}%
+\contentsline {subsection}{\numberline {4.1.4}Sentiment Distribution}{24}{}%
+\contentsline {subsection}{\numberline {4.1.5}Topic Modeling: Results of the Latent Dirichlet Allocation (LDA)}{27}{}%
+\contentsline {subsection}{\numberline {4.1.6}Clustering: Results of the K-means clustering}{28}{}%
+\contentsline {subsection}{\numberline {4.1.7}Inter-Annotator Reliability and Sentiment Consensus}{29}{}%
+\contentsline {subsubsection}{Evaluating Annotator Consistency}{29}{}%
+\contentsline {subsubsection}{The Intensity vs. Direction Gap}{29}{}%
+\contentsline {subsubsection}{Sentiment Distribution and Semantic Density}{29}{}%
+\contentsline {section}{\numberline {4.2}Synthesis: Contextual Mapping}{31}{}%
+\contentsline {subsection}{\numberline {4.2.1}The interplay of topic and emoji behavior}{31}{}%
+\contentsline {subsection}{\numberline {4.2.2}Stable Affirmation vs. Tonal Softening}{32}{}%
+\contentsline {subsection}{\numberline {4.2.3}Semantic Complexity in Referrals}{32}{}%
+\contentsline {subsection}{\numberline {4.2.4}Conclusion: The Nuanced Middle Ground}{32}{}%
+\contentsline {section}{\numberline {4.3}Predictive Analysis Results}{32}{}%
+\contentsline {section}{\numberline {4.4}Comparative Analysis Results}{33}{}%
+\contentsline {chapter}{\numberline {5}Conclusions and Recommendations}{34}{}%
+\contentsline {section}{\numberline {5.1}Recommendations}{34}{}%
+\contentsline {section}{\numberline {5.2}Conclusion}{34}{}%
+\contentsline {chapter}{References}{36}{}%
